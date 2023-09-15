@@ -19,7 +19,7 @@ Work experience
   * Correlating Synchrotron radiation with Galactic Magnetic Field: I have tried to match statistics of data with that of generated from simulations and, used power spectrum and Minkowkski Functionals to study their statistics, and investigate their correlation.  
   * Funded by Science and Engineering Research Board.
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
-  * Guides: Dr. Pravabati Chingangbam, Dr. Tuhin Ghosh(NISER), Dr. Vincent Pelgrims(ULB).
+  * Guides: (Dr. Pravabati Chingangbam)[https://www.iiap.res.in/?q=prava], (Dr. Tuhin Ghosh)[https://www.niser.ac.in/users/tghosh] (NISER), (Dr. Vincent Pelgrims) [https://www.ia.forth.gr/node/50] (ULB).
   * Outcomes: Work is still in progress.
   
 * Semester Project
@@ -27,13 +27,13 @@ Work experience
   * Done as a part of course in Machine Learning (CS460).
   * Collaborated with Diptarko Choudhury.
   * Guide: Dr. Subhankar Mishra.
-  * Outcomes: Manuscript for publication has been submitted to a journal and is under review.
+  * Outcomes: Manuscript for publication will be submitted to a journal and is under review.
   
 * Summer 2022: Summer Research Fellow @ (Indian Institute of Astrophysics)[https://www.iiap.res.in/], Bengaluru 
   * I analysed X-ray spectrum of several dual Active Galactic Nucleus and tried to find the presence of Fe-K$\alpha$ lines using Chandra CIAO and HEASOFT. I also tried to constrain the dynamics of blackhole through spectral fitting with different models.
   * Funded by Indian Academy of Sciences.
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
-  * Guides: Dr. Mousumi Das and Dr. Santanu Mondal.
+  * Guides: (Dr. Mousumi Das)[https://www.iiap.res.in/people/personnel/mousumi/mdas-site.htm] and (Dr. Santanu Mondal)[https://www.iiap.res.in/?q=SantanuMondal].
   * Outcomes: Manuscript for publication has been submitted to a journal and is under review.
 
   
