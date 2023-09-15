@@ -82,6 +82,6 @@ Teaching
 -->   
 Service and leadership
 ======
-* Club Memberships @NISER
- * Talks Organising Committe, NISER Astronomy Club
- * Founder Member of Vaktavya, NISER Debating Club
+<!---* Club Memberships @NISER-->
+   * Talks Organising Committe, NISER Astronomy Club
+   * Founder Member of Vaktavya, NISER Debating Club
