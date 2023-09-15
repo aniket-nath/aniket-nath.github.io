@@ -12,28 +12,30 @@ redirect_from:
 Education
 ======
 * Int. M.Sc. (Majoring in Physics), 2025(expected) - NISER, Bhubaneswar, India
-* ISC (Class 12th), 2019 - Pearls of God School,West Bengal, India
-* ICSE (Class 11th), 2017 - Pearls of God School,West Bengal, India
 
 Work experience
 ======
-* Summer 2022: Summer Research Fellow
-  * Analysing X-ray spectra of Dual Active Galactic Nuclei	
-  * Funded by Indian Academy of Sciences
-  * Host Institute: Indian Institute of Astrophysics, Bengaluru, India
-  * Guides: Dr. Mousumi Das and Dr. Santanu Mondal
-
-* Semester Project
-  * Explorative Latent Space Search Algorithm (ELSA)
-  * Done as a part of course in Machine Learning (CS460)
-  * Collaborated with Diptarko Choudhury
-  * Guide: Dr. Subhankar Mishra
-  
 * Summer 2023: SERB MATRICS Fellow
-  * Correlating Synchrotron radiation with Galactic Magnetic Field	
-  * Funded by Science and Engineering Research Board
-  * Host Institute: Indian Institute of Astrophysics, Bengaluru, India
-  * Guides: Dr. Pravabati Chingangbam, Dr. Tuhin Ghosh(NISER), Dr. Vincent Pelgrims(ULB)
+  * Correlating Synchrotron radiation with Galactic Magnetic Field: I have tried to match statistics of data with that of generated from simulations and, used power spectrum and Minkowkski Functionals to study their statistics, and investigate their correlation.  
+  * Funded by Science and Engineering Research Board.
+  * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
+  * Guides: Dr. Pravabati Chingangbam, Dr. Tuhin Ghosh(NISER), Dr. Vincent Pelgrims(ULB).
+  * Outcomes: Work is still in progress.
+  
+* Semester Project
+  * Explorative Latent Space Search Algorithm (ELSA): We devised an active learning guided algorithm to explore the latent space generated through representation learning heads on a dataset, and used it to discover newer samples of a particular class.
+  * Done as a part of course in Machine Learning (CS460).
+  * Collaborated with Diptarko Choudhury.
+  * Guide: Dr. Subhankar Mishra.
+  * Outcomes: Manuscript for publication has been submitted to a journal and is under review.
+  
+* Summer 2022: Summer Research Fellow @ (Indian Institute of Astrophysics)[https://www.iiap.res.in/], Bengaluru 
+  * I analysed X-ray spectrum of several dual Active Galactic Nucleus and tried to find the presence of Fe-K$\alpha$ lines using Chandra CIAO and HEASOFT. I also tried to constrain the dynamics of blackhole through spectral fitting with different models.
+  * Funded by Indian Academy of Sciences.
+  * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
+  * Guides: Dr. Mousumi Das and Dr. Santanu Mondal.
+  * Outcomes: Manuscript for publication has been submitted to a journal and is under review.
+
   
 Schools Attended
 ======
