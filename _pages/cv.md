@@ -49,9 +49,9 @@ Skills
   * Bengali
   * Hindi 
 * Computer Languages
- * Shell Script
- * Python
- * Fortran
+  * Shell Script
+  * Python
+  * Fortran
 * Softwares
   * ROOT-CERN
   * Chandra CIAO
@@ -61,7 +61,25 @@ Skills
   * Latex
   * Google docs
   * MS-Word
+  <!---
+Publications
+======
+ " <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>"
+--> 
 Service and leadership
 ======
 <!---* Club Memberships @NISER-->
