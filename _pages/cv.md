@@ -11,31 +11,57 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Int. M.Sc. (Majoring in Physics), 2025(expected) - NISER, Bhubaneswar, India
+* ISC (Class 12th), 2019 - Pearls of God School,West Bengal, India
+* ICSE (Class 11th), 2017 - Pearls of God School,West Bengal, India
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2022: Summer Research Fellow
+  * Analysing X-ray spectra of Dual Active Galactic Nuclei	
+  * Funded by Indian Academy of Sciences
+  * Host Institute: Indian Institute of Astrophysics, Bengaluru, India
+  * Guides: Dr. Mousumi Das and Dr. Santanu Mondal
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Semester Project
+  * Explorative Latent Space Search Algorithm (ELSA)
+  * Done as a part of course in Machine Learning (CS460)
+  * Collaborated with Diptarko Choudhury
+  * Guide: Dr. Subhankar Mishra
+  
+* Summer 2023: SERB MATRICS Fellow
+  * Correlating Synchrotron radiation with Galactic Magnetic Field	
+  * Funded by Science and Engineering Research Board
+  * Host Institute: Indian Institute of Astrophysics, Bengaluru, India
+  * Guides: Dr. Pravabati Chingangbam, Dr. Tuhin Ghosh(NISER), Dr. Vincent Pelgrims(ULB)
+  
+Schools Attended
+======
+* Radio Astronomy Winter School (RAWS): 2022
+  * I was selected for RAWS-2022
+  * I learnt some basic techniques of Radio Astronomy and it's applications in different domains.
+  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Human Languages
+  * English
+  * Bengali
+  * Hindi 
+* Computer Languages
+ * Shell Script
+ * Python
+ * Fortran
+* Softwares
+  * ROOT-CERN
+  * Chandra CIAO
+  * NASA HEASOFT
+  * Healpix
+* Text Editors
+  * Latex
+  * Google docs
+  * MS-Word
+<!
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -53,7 +79,9 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+>   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Club Memberships @NISER
+ * Talks Organising Committe, NISER Astronomy Club
+ * Founder Member of Vaktavya, NISER Debating Club
