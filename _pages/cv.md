@@ -24,7 +24,7 @@ Work experience
   
 * Semester Project
   * Explorative Latent Space Search Algorithm (ELSA): We devised an active learning guided algorithm to explore the latent space generated through representation learning heads on a dataset, and used it to discover newer samples of a particular class.
-  * Done as a part of course in Machine Learning ((CS460)[https://www.niser.ac.in/~smishra/teach/cs460/2021/]).
+  * Done as a part of course in Machine Learning ((CS460)[https://www.niser.ac.in/~smishra/teach/cs460/23cs460/]).
   * Collaborated with Diptarko Choudhury.
   * Guide: (Dr. Subhankar Mishra)[https://niser.ac.in/~smishra/].
   * Outcomes: Manuscript for publication will be submitted to a journal and is under review.
