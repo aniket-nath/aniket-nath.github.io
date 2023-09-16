@@ -27,7 +27,7 @@ Work experience
   * Done as a part of course in Machine Learning ([CS460](https://www.niser.ac.in/~smishra/teach/cs460/23cs460/)).
   * Collaborated with [Diptarko Choudhury](https://in.linkedin.com/in/diptarko-choudhury-371518205).
   * Guide: [Dr. Subhankar Mishra](https://niser.ac.in/~smishra/).
-  * Outcomes: Manuscript for publication will be submitted to a journal and is under review.
+  * Outcomes: Manuscript for publication will be submitted to a journal.
   
 * Summer 2022: Summer Research Fellow @ [Indian Institute of Astrophysics](https://www.iiap.res.in/), Bengaluru 
   * I analysed X-ray spectrum of several dual Active Galactic Nucleus and tried to find the presence of Fe-K$\alpha$ lines using Chandra CIAO and HEASOFT. I also tried to constrain the dynamics of blackhole through spectral fitting with different models.
