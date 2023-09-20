@@ -5,3 +5,11 @@ collection: portfolio.
 ---
 
 Work is still in progress, once some conclusions are reached, this page will be updated.
+
+---
+title:"Test"
+excerpt: "Test"
+collection: portfolio
+---
+
+Test
