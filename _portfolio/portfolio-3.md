@@ -14,9 +14,11 @@ The mass of a SMBH varies from nearly millions to billions time the solar mass. 
 AGNs are basically accreting SMBHs. Gases and dust swirl around the black hole, forming an accretion disk. In the inner circle of the accretion disk, mass is absorbedinto the black hole, while a part of it is released as radiation and highly energetic matter. The radiation from the accretion from the closest stable orbit, gives us infomation about the near event horizon environment.<br/>
 The presence of molecular torii around the central machinery causes very strong absorption lines to appear in the corresponding spectrum. An accretion disk is formed, when matter with non-zero angular momentum falls into the gravitational potential, and looses energy as it swirls around the SMBH, finally accreting into the Black Hole.The process of accretion is an efficient process in the re-
 lease of radiation. The energy release in this process can be approximated to first order, by the change in potential energy $(\Delta E)$ of a test particle of mass $m$, in the gravitational eld of the black hole, falling into it.<br/>
+<center>
 $$
 \Delta E = G \dfrac{Mm}{R_{S}}
-$$<br/>
+$$</center>
+<br/>
 Where, $R_{S}$ is the Schwarzschild radius of the black hole.
 <center><img src='/images/agn_morph.png' width="50%" height="50%"></center>
 <center> Morphology of an Active Galactic Nuclei </center>
