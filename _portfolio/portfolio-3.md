@@ -22,3 +22,12 @@ $$</center>
 Where, $R_{S}$ is the Schwarzschild radius of the black hole.
 <center><img src='/images/agn_morph.png' width="50%" height="50%"></center>
 <center> Morphology of an Active Galactic Nuclei </center>
+The accretion Luminosity $(L_{A})$, which is luminosity of the corresponding radiation from an accreting system.
+<center>
+$$
+L_A = \zeta \dfrac{GM(dm/dt)}{R_{S}}
+$$
+</center>
+Where $\zeta$ is related to the efficiency of the Accretion process.
+## Estimating geometry from Spectra
+As gas and matter accretes on to the black hole, from the last  stable orbit around it, a part of matter is ejected as energy or highly energetic beam of matter. This causes the emission of high energy radiation in X-Rays, gamma rays, etc. Some part of this radiation often is reflected, absorbed and re-emitted, and appears as spectral features over the X-ray continuum, which follows a power law. If we can pick up models, to fit this spectra, and fit to obtain specific parameters, we can extract information regarding the near event horizon geometry. Using tools like Chandra SHERPA, or NASA HEASOFT, one can constrain parameters that describe the geometry, simply by picking one of the models, and fitting the corresponding spectra. There are speculations regarding which model suits best for the purpose and explains the physics properly, we can pick up different models and constrain the geometry for each of the case.
