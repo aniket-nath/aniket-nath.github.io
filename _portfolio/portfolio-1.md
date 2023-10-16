@@ -12,7 +12,7 @@ In order to study the properties, we first do a theoretical modelling of the Syn
 ## Synchrotron Emission
 The Galactic Synchrotron emission is produced when relativistic electrons swirl around the GMF Lines ([Rybicki and Lightman, Radiative Processes in Astrophysics](https://books.google.co.in/books/about/Radiative_Processes_in_Astrophysics.html?id=LtdEjNABMlsC&redir_esc=y)). This emission is supposedly polarised perpendicular to the GMF lines. As shown in figure, the relativistic electrons swivells around the magnetic field line (B-Field), with their axis of revolution parallel to the direction of the magnetic field. This shows that the synchrotron emission is polarised in a direction perpendicular to the magnetic field as shown in the figure. <br/>
 <center>
-<img src = '/images/synchrotron.png'> 
+<img src ='/images/synchrotron.png'> 
 </center>
 <center> The relativistic electrons swivel around the magnetic field lines (B-Field)</center>
  We are specifically interested in contribution of synchrotron to the Cosmic Microwave Background at high frequencies.We assume a power law distribution for the energy of relativistic electrons, i.e., we assume that the number of electrons in a specific energy range can be approximated as follows:
@@ -84,7 +84,7 @@ $$
  C_{\ell} = \dfrac{1}{2\ell + 1} \sum_{m = - \ell}^{\ell} |a_{\ell m}|^2
  $$
  </center>
-We see that at smaller values of $\ell$ we have smaller numbers of $m$ to average over, making the average significantly different from the true average. This is called the \textbf{Cosmic Variance}. At larger $\ell$ values, this no longer happens to be a limitation. For each $\ell$ value, the angular scale is of the order of $2\pi/(\ell +1)$ radians. The power spectrum is basically a two point correlation function. Suppose we want to investigate the field values, then the angular correlation function is given by:
+We see that at smaller values of $\ell$ we have smaller numbers of $m$ to average over, making the average significantly different from the true average. This is called the Cosmic Variance. At larger $\ell$ values, this no longer happens to be a limitation. For each $\ell$ value, the angular scale is of the order of $2\pi/(\ell +1)$ radians. The power spectrum is basically a two point correlation function. Suppose we want to investigate the field values, then the angular correlation function is given by:
 <center>
  $$
  C(\chi) = \langle f(\hat{n_1}) f(\hat{n_2}) \rangle
@@ -95,11 +95,85 @@ When it comes to a masked map, we also expand the window or mask function $W$ in
 ## Statistics through Minkowski Functionals
 In order to obtain statistics of the Total Intensity maps from the simulated parameters, we essentially treat the sky map as a Random field on a sphere ($\mathbb{S}^2$). Since we have only one realisation available at hand for each pixels, or points on the sphere, we take the assumption of ergodicity, to get statistics from this one realisation of the Random field, which here is the Total Intensity ($I_s$) values at every points of $\mathbb{S}^2$. The assumption of ergodicity is based on the fact, that by averaging over volume, we can compensate for the lack of more realisations. Although, this is true for Gaussian fields, it has not yet been proven to be true for non-Gaussian fields. Neverthless, we ignore the warning like a physicist, and proceed to study the statistical non-Gaussianity of the Random field under consideration here.<br/>
 We will now explain, how we can come up with a Probability Distribution Function (PDF) for the Random field on a sphere ($\mathbb{S}^2$). We assume, that the space is homogeneous, i.e., the PDF remains unchanged if we move around the space under consideration.<br/>
-We take the random variable ($\delta T$) to be defined on each point of the sphere([Buchert et. al, 2017](https://doi.org/10.1088%2F1361-6382%2Faa5ce2)). The variable is then described by a probability distribution function $P(t)$. Where $t \in \mathbb{R}$ ($\mathbb{R} $is the set of all real numbers), and $P(t) \ge 0$. We can obtain the \textit{Cumulative Distribution Function (CDF)} from $P(t)$ as follows:
+We take the random variable ($\delta T$) to be defined on each point of the sphere([Buchert et. al, 2017](https://doi.org/10.1088%2F1361-6382%2Faa5ce2)). The variable is then described by a probability distribution function $P(t)$. Where $t \in \mathbb{R}$ ($\mathbb{R} $is the set of all real numbers), and $P(t) \ge 0$. We can obtain the Cumulative Distribution Function (CDF) from $P(t)$ as follows:
 <center>
 $$
 F(\tau) = prob(\delta T < \tau) = \int_{-\infty}^\tau P(t) dt
 $$
 </center>
-
-
+ We note that, $F(\tau)$ is a non-decreasing function and $prob(\tau_2 - \tau_1)$ = $F(\tau_2)-F(\tau_1)$. For a continuous function $ f $: $\mathbb{R} \to \mathbb{R}$, $f(\delta T)$ is again a random field, whose expectation value is defined as:
+ <center>
+ $$
+ \langle f(\delta T) \rangle = \int_{-\infty}^{\infty} f(t)P(t)dt
+ $$
+ </center>
+ 
+To describe a PDF, we calculate and chack the moments, central moments and the corresponding cumulants. These can be done in the usual way by moment generating functions and algebraic manipulations for different probability distribution functions.
+- Moments($\alpha_n$) = $ \left<(\delta T)^n\right> $ = $\int_{-\infty}^{\infty} t^n P(t) dt$, $n=0,1,2,\dots$
+- Central Moments($\alpha_n$) = $ \left<(\delta T - \mu)^n\right> $ = $\int_{-\infty}^{\infty}(t-\mu)^n P(t) dt$, $n=0,1,2,\dots$
+ </center>
+The corresponding moment generating function is defined as:
+<center>
+$$
+ M(x) = \left<e^{x\delta T}\right> = \int_{-\infty}^{\infty} e^{xt}P(t)dt = \sum_{n=0}^{\infty} \alpha_n \dfrac{x^n}{n!}
+$$
+</center>
+Now from the moment generating function given in the above equation, we obtain the Cumulant Generating Function:
+<center>
+$$
+C(x) = \ln M(x) = \sum_{n=1}^{\infty} \varkappa_n \dfrac{x^n}{n!}
+$$
+</center>
+The first few moments and cumulants are $\alpha_0 = m_0 = 1$, and the mean values are $\mu = \alpha_1 = \varkappa_1$. We obtain the following recursion relations then:
+<center>
+$$
+ m_n = \sum_{r=0}^n{n \choose r}(-1)^{n-r}\mu^{n-r}
+$$
+</center>
+and similarly, for $n\ge 2$
+<center>
+$$
+\varkappa_n = m_n - \sum_{r=1}^{n-1}{n-1 \choose r-1} \varkappa_r m_{n-r}
+$$
+</center>
+We see that any odd non-vanishing central moment $m_{2n+1}$ of the PDF corresponding to the random variable $\delta T$, is basically a measure of the skewness of $P(t)$. We can therefore take a generic Gaussian PDF, find the cumulants and moments, and compare the same with our obtained PDF. The difference shall necessarily indicate deviation from the Gaussian behaviour of our PDF that dictates the distribution of values for the random variable of our interest.<br/>
+We also see that for a given realisation of the random field, and with the assumption of ergodicity, we can establish a connection between the Minkowski functionals and the corresponding PDFs([Buchert et. al, 2017](https://doi.org/10.1088%2F1361-6382%2Faa5ce2)). For example, we pick up the example of the first scalar Minkowski Functional $V_0$. We consider the compact excursion set $\mathcal{Q}_{\nu} \in \mathbb{S}^2$ with corresponding boundary $\partial \mathcal{Q}_{\nu}(\nu = t/\sigma_0)$:
+<center>
+$$
+ \mathcal{Q}_\nu = \{\hat{n} \in \mathbb{S}^2 |\delta T(\hat{n}) \ge \sigma_0 \nu \}
+$$
+</center>
+We define the MF $V_0(\nu)$ as:
+<center>
+$$
+V_0({\mathcal{Q}_\nu}) = \int_{\mathcal{Q}_\nu} da = area(\mathcal{Q}_\nu)
+$$
+</center>
+We define a normalized MF $v_0(\nu)$ that is normalized with respect to area ($\mathbb{S}^2$) = $4\pi$:
+<center>
+v_0(\nu) = \frac{1}{4\pi}V_{0}(\nu) = prob(\delta T \ge \sigma_0 \nu) = F_C(\sigma_0 \nu)
+</center>
+Then, we can also write:
+<center>
+$$
+v_0(\nu) = \int_{-\infty}^{\infty} \Theta(t - \sigma_0\nu)P(t)dt 
+$$
+</center>
+  We can also write the above equation in terms of the derivatives,
+<center>
+$$
+P(t) = -\left.\dfrac{1}{\sigma_0} \dfrac{dv_0(\nu)}{d\nu}\right|_{\nu=t/\sigma_0}
+$$
+</center>
+Thus, we can see a relation between the normalised first scalar MF, and we can derive relations with higher MFs and expressions involving higher moments.
+<center>
+|   d   	|           1          	|           2          	|           3          	|
+|:-----:	|:--------------------:	|:--------------------:	|:--------------------:	|
+| $V_0$ 	|        length        	|         area         	|        volume        	|
+| $V_1$ 	| Euler characteristic 	|     circumference    	|     surface area     	|
+| $V_2$ 	|          -           	| Euler characteristic 	| total mean curvature 	|
+| $V_3$ 	|          -         	|        -             	| Euler characteristic 	|
+</center>
+<center>Minkowski Functionals as descriptors of fields in different dimensional manifolds ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)) </center>
+## Modelling of Galactic Magnetic Field
+There are various models to mathematically describe the gross magnetic field in a generic galaxy. These have been described in the appendix section of [Pelgrims et al., 2021](https://arxiv.org/abs/1807.10515). We have picked up different models, and the corresponding fitted parameters, and simulated the synchrotron maps, by using the equations for Stoke's parameters. Finally, we have appliedd a mask, derived from the Haslam Map at 408 MHz, and tried to get the statistics for different scenarios.
