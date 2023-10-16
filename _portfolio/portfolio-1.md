@@ -167,7 +167,7 @@ $$
 P(t) = -\left.\dfrac{1}{\sigma_0} \dfrac{dv_0(\nu)}{d\nu}\right|_{\nu=t/\sigma_0}
 $$
 </center>
-Thus, we can see a relation between the normalised first scalar MF, and we can derive relations with higher MFs and expressions involving higher moments.
+Thus, we can see a relation between the normalised first scalar MF, and we can derive relations with higher MFs and expressions involving higher moments. Then for different dimensional manifolds, we have different geometric attributes associated with each of these functions ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)), as described in the table below.
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -213,7 +213,7 @@ Thus, we can see a relation between the normalised first scalar MF, and we can d
 </tbody>
 </table>
 <center>
-Minkowski Functionals as descriptors of fields in different dimensional manifolds ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)) 
+Minkowski Functionals as descriptors of fields in different dimensional manifolds 
 </center>
 ## Modelling of Galactic Magnetic Field
 There are various models to mathematically describe the gross magnetic field in a generic galaxy. These have been described in the appendix section of [Pelgrims et al., 2021](https://arxiv.org/abs/1807.10515). We have picked up different models, and the corresponding fitted parameters, and simulated the synchrotron maps, by using the equations for Stoke's parameters. Finally, we have appliedd a mask, derived from the Haslam Map at 408 MHz, and tried to get the statistics for different scenarios.
