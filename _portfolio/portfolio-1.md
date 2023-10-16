@@ -82,3 +82,22 @@ $$
  C_{\ell} = \dfrac{1}{2\ell + 1} \sum_{m = - \ell}^{\ell} |a_{\ell m}|^2
  $$
  </center>
+We see that at smaller values of $\ell$ we have smaller numbers of $m$ to average over, making the average significantly different from the true average. This is called the \textbf{Cosmic Variance}. At larger $\ell$ values, this no longer happens to be a limitation. For each $\ell$ value, the angular scale is of the order of $2\pi/(\ell +1)$ radians. The power spectrum is basically a two point correlation function. Suppose we want to investigate the field values, then the angular correlation function is given by:
+<center>
+ $$
+ C(\chi) = \langle f(\hat{n_1}) f(\hat{n_2}) \rangle
+ $$
+</center>
+Where, $\chi$ is the angle between the directional unit vectors $\hat{n_1}$ and $\hat{n_2}$.<br/>
+When it comes to a masked map, we also expand the window or mask function $W$ in terms of the spherical harmonics, and find the power spectrum of the map, removing the portions covered by the map. Although this power spectrum is the pseudo power spectrum, and is different from the true power spectrum, we can relate the ensemble averages of the power spectrum through the mode-mode coupling matrix ([Hivon et. al, 2002](http://arxiv.org/abs/astro-ph/0105302)).
+## Statistics through Minkowski Functionals
+In order to obtain statistics of the Total Intensity maps from the simulated parameters, we essentially treat the sky map as a Random field on a sphere ($\mathbb{S}^2$). Since we have only one realisation available at hand for each pixels, or points on the sphere, we take the assumption of ergodicity, to get statistics from this one realisation of the Random field, which here is the Total Intensity ($I_s$) values at every points of $\mathbb{S}^2$. The assumption of ergodicity is based on the fact, that by averaging over volume, we can compensate for the lack of more realisations. Although, this is true for Gaussian fields, it has not yet been proven to be true for non-Gaussian fields. Neverthless, we ignore the warning like a physicist, and proceed to study the statistical non-Gaussianity of the Random field under consideration here.<br/>
+We will now explain, how we can come up with a Probability Distribution Function (PDF) for the Random field on a sphere ($\mathbb{S}^2$). We assume, that the space is homogeneous, i.e., the PDF remains unchanged if we move around the space under consideration.<br/>
+We take the random variable ($\delta T$) to be defined on each point of the sphere([Buchert et. al, 2017](https://doi.org/10.1088%2F1361-6382%2Faa5ce2)). The variable is then described by a probability distribution function $P(t)$. Where $t \in \mathbb{R}$ ($\mathbb{R} $is the set of all real numbers), and $P(t) \ge 0$. We can obtain the \textit{Cumulative Distribution Function (CDF)} from $P(t)$ as follows:
+<center>
+$$
+F(\tau) = prob(\delta T < \tau) = \int_{-\infty}^\tau P(t) dt
+$$
+</center>
+
+
