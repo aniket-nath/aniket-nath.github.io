@@ -168,14 +168,50 @@ P(t) = -\left.\dfrac{1}{\sigma_0} \dfrac{dv_0(\nu)}{d\nu}\right|_{\nu=t/\sigma_0
 $$
 </center>
 Thus, we can see a relation between the normalised first scalar MF, and we can derive relations with higher MFs and expressions involving higher moments.
-<center>
-| d 	| 1 	| 2 	| 3 	|
-|:---:	|:---:	|:---:	|:---:	|
-| $V_0$ 	| length 	| area 	| volume 	|
-| $V_1$ 	| Euler characteristic 	| circumference 	| surface area 	|
-| $V_2$ 	| - 	| Euler characteristic 	| total mean curvature 	|
-| $V_3$ 	| - 	| - 	| Euler characteristic 	|
-</center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow">d</th>
+    <th class="tg-c3ow">1</th>
+    <th class="tg-c3ow">2</th>
+    <th class="tg-c3ow">3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">$V_0$</td>
+    <td class="tg-c3ow">length</td>
+    <td class="tg-c3ow">area</td>
+    <td class="tg-c3ow">volume</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">$V_1$</td>
+    <td class="tg-c3ow">Euler characteristic</td>
+    <td class="tg-c3ow">circumference</td>
+    <td class="tg-c3ow">surface area</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">$V_2$</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Euler characteristic</td>
+    <td class="tg-c3ow">total mean curvature</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">$V_3$</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Euler characteristic</td>
+  </tr>
+</tbody>
+</table>
 <center>Minkowski Functionals as descriptors of fields in different dimensional manifolds ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)) </center>
 ## Modelling of Galactic Magnetic Field
 There are various models to mathematically describe the gross magnetic field in a generic galaxy. These have been described in the appendix section of [Pelgrims et al., 2021](https://arxiv.org/abs/1807.10515). We have picked up different models, and the corresponding fitted parameters, and simulated the synchrotron maps, by using the equations for Stoke's parameters. Finally, we have appliedd a mask, derived from the Haslam Map at 408 MHz, and tried to get the statistics for different scenarios.
