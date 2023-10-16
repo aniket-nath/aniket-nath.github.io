@@ -169,12 +169,12 @@ $$
 </center>
 Thus, we can see a relation between the normalised first scalar MF, and we can derive relations with higher MFs and expressions involving higher moments.
 <center>
-|   d   	|           1          	|           2          	|           3          	|
-|:-----:	|:--------------------:	|:--------------------:	|:--------------------:	|
-| $V_0$ 	|        length        	|         area         	|        volume        	|
-| $V_1$ 	| Euler characteristic 	|     circumference    	|     surface area     	|
-| $V_2$ 	|          -           	| Euler characteristic 	| total mean curvature 	|
-| $V_3$ 	|          -         	|        -             	| Euler characteristic 	|
+| d 	| 1 	| 2 	| 3 	|
+|:---:	|:---:	|:---:	|:---:	|
+| $V_0$ 	| length 	| area 	| volume 	|
+| $V_1$ 	| Euler characteristic 	| circumference 	| surface area 	|
+| $V_2$ 	| - 	| Euler characteristic 	| total mean curvature 	|
+| $V_3$ 	| - 	| - 	| Euler characteristic 	|
 </center>
 <center>Minkowski Functionals as descriptors of fields in different dimensional manifolds ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)) </center>
 ## Modelling of Galactic Magnetic Field
