@@ -24,3 +24,18 @@ The Galactic Synchrotron emission is produced when relativistic electrons swirl 
  $$
  N(\gamma)d\gamma = CE\gamma^{-\alpha}d\gamma
  $$
+ </center>
+ Where the variables have been written as a function of the Lorentz factor, and the above equation is assumed to hold for a given energy range.<br/>
+ Taking only the components of Magnetic Field perpendicular to our Line of Sight vector, we proceed to evaluate the Stokes parameters as follows:
+ <center>
+ $$
+ I_s &= \epsilon_\nu ^s \int_0^\infty dr\ n_e(r, \hat{n})\left({B_\perp(r,\hat{n})^2}\right)^{(s+1)/4}
+ $$
+ $$
+ Q_s &= \Pi_s \epsilon_\nu ^s \int_0^\infty dr\ n_e(r, \hat{n})\left({B_\perp(r,\hat{n})^2}\right)^{(s+1)/4} cos\[2\alpha(r,\hat{n})\]
+ $$
+ $$
+ U_s &= \Pi_s \epsilon_\nu ^s \int_0^\infty dr\ n_e(r, \hat{n})\left({B_\perp(r,\hat{n})^2}\right)^{(s+1)/4} sin\[2\alpha(r,\hat{n})\]
+ $$
+ </center>
+ Where $I_s, Q_s, U_s$ are the the Stoke's parameters for synchrotron emission.
