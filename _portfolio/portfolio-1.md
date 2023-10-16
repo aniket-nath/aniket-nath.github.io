@@ -38,4 +38,18 @@ The Galactic Synchrotron emission is produced when relativistic electrons swirl 
  U_s &= \Pi_s \epsilon_\nu ^s \int_0^\infty dr\ n_e(r, \hat{n})\left({B_\perp(r,\hat{n})^2}\right)^{(s+1)/4} sin\[2\alpha(r,\hat{n})\]
  $$
  </center>
- Where $I_s, Q_s, U_s$ are the the Stoke's parameters for synchrotron emission.
+ Where $I_s, Q_s, U_s$ are the the Stoke's parameters for synchrotron emission.<br/>
+ - $\epsilon_\nu^s$ is the synchrotron emissivity
+ - $n_e(r,\hat{n}$ is the local dust density of relativistic electrons, at a direction $\hat{n}$ and at a distance r from the origin.
+ - $\Pi_s$ is the intrinsic degree of polarization, which is related to the spectral index (s) as follows:
+ <center>
+ $$
+         \Pi_s = \dfrac{s+1}{s+7/3}
+ </center>
+ - The angle $\alpha$ is the local polarization angle and is given by:
+  <center>
+         \alpha(r,\hat{n}) = \frac{1}{2}tan^{-1}\left(\dfrac{-2 B_\theta B_\phi}{B_\phi^2 - B_\theta^2}\right)
+  </center>
+     Where, $B_\theta$ and $B_\phi$ are the local transverse components of the magnetic field in the local spherical coordinate basis ($\hat{r},\hat{\theta},\hat{\phi}$).
+ 
+ 
