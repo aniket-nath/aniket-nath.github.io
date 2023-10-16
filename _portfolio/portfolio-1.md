@@ -137,7 +137,7 @@ $$
 $$
 </center>
 We see that any odd non-vanishing central moment $m_{2n+1}$ of the PDF corresponding to the random variable $\delta T$, is basically a measure of the skewness of $P(t)$. We can therefore take a generic Gaussian PDF, find the cumulants and moments, and compare the same with our obtained PDF. The difference shall necessarily indicate deviation from the Gaussian behaviour of our PDF that dictates the distribution of values for the random variable of our interest.<br/>
-We also see that for a given realisation of the random field, and with the assumption of ergodicity, we can establish a connection between the Minkowski functionals and the corresponding PDFs([Buchert et. al, 2017](https://doi.org/10.1088%2F1361-6382%2Faa5ce2)). For example, we pick up the example of the first scalar Minkowski Functional $V_0$. We consider the compact excursion set $\mathcal{Q}_{\nu} \in \mathbb{S}^2$ with corresponding boundary $\partial \mathcal{Q}_{\nu}(\nu = t/\sigma_0)$:
+We also see that for a given realisation of the random field, and with the assumption of ergodicity, we can establish a connection between the Minkowski functionals and the corresponding PDFs([Buchert et. al, 2017](https://doi.org/10.1088%2F1361-6382%2Faa5ce2)). For example, we pick up the example of the first scalar Minkowski Functional $V_0$. We consider the compact excursion set $$\mathcal{Q}_{\nu} \in \mathbb{S}^2$$ with corresponding boundary $$\partial \mathcal{Q}_{\nu}(\nu = t/\sigma_0)$$:
 <center>
 $$
  \mathcal{Q}_\nu = \{\hat{n} \in \mathbb{S}^2 |\delta T(\hat{n}) \ge \sigma_0 \nu \}
@@ -151,7 +151,9 @@ $$
 </center>
 We define a normalized MF $v_0(\nu)$ that is normalized with respect to area ($\mathbb{S}^2$) = $4\pi$:
 <center>
+$$
 v_0(\nu) = \frac{1}{4\pi}V_{0}(\nu) = prob(\delta T \ge \sigma_0 \nu) = F_C(\sigma_0 \nu)
+$$
 </center>
 Then, we can also write:
 <center>
