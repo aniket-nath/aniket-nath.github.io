@@ -212,6 +212,8 @@ Thus, we can see a relation between the normalised first scalar MF, and we can d
   </tr>
 </tbody>
 </table>
-<center>Minkowski Functionals as descriptors of fields in different dimensional manifolds ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)) </center>
+<center>
+Minkowski Functionals as descriptors of fields in different dimensional manifolds ([Schmalzing et. al, 1997](https://arxiv.org/abs/astro-ph/9710185)) 
+</center>
 ## Modelling of Galactic Magnetic Field
 There are various models to mathematically describe the gross magnetic field in a generic galaxy. These have been described in the appendix section of [Pelgrims et al., 2021](https://arxiv.org/abs/1807.10515). We have picked up different models, and the corresponding fitted parameters, and simulated the synchrotron maps, by using the equations for Stoke's parameters. Finally, we have appliedd a mask, derived from the Haslam Map at 408 MHz, and tried to get the statistics for different scenarios.
