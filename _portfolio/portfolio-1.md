@@ -11,7 +11,8 @@ In this project we use Minkowski Functionals to test the non-Gaussian nature of 
 In order to study the properties, we first do a theoretical modelling of the Synchrotron Emission, along with a modelling of possible geometries of the Galactic Magnetic Field. Using the corresponding models, we have used parameters to define the geometry from best-fit models obtained through simulations using a Markov-Chain Monte-Carlo parameter space survey ([Pelgrims et al., 2021](https://arxiv.org/abs/1807.10515)). <br/>
 ## Synchrotron Emission
 The Galactic Synchrotron emission is produced when relativistic electrons swirl around the GMF Lines ([Rybicki and Lightman, Radiative Processes in Astrophysics](https://books.google.co.in/books/about/Radiative_Processes_in_Astrophysics.html?id=LtdEjNABMlsC&redir_esc=y)). This emission is supposedly polarised perpendicular to the GMF lines. As shown in figure, the relativistic electrons swivells around the magnetic field line (B-Field), with their axis of revolution parallel to the direction of the magnetic field. This shows that the synchrotron emission is polarised in a direction perpendicular to the magnetic field as shown in the figure. <br/>
-<center> ![Image 1](./images/synchrotron.png) 
+<center>
+<img src = '/images/synchrotron.png'> 
 </center>
 <center> The relativistic electrons swivel around the magnetic field lines (B-Field)</center>
  We are specifically interested in contribution of synchrotron to the Cosmic Microwave Background at high frequencies.We assume a power law distribution for the energy of relativistic electrons, i.e., we assume that the number of electrons in a specific energy range can be approximated as follows:
