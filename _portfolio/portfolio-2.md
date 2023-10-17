@@ -26,6 +26,7 @@ This algorithm is an unique approach to help increase labelling efficieny for a 
 <center>
 <img src ='/images/elsa.png'>
 </center>
-<center>Architecture of ELSA</center>
+<center> Architecture of ELSA </center>
+We can see in the architecture, how the latent space or the represenatation space is being explored through nearest neighbour search, random search and how the oracle (an active learning component) is guiding the search for samples from the similar class.<br/> 
 The results of this project have been submitted to a conference as of now, and is under review.
 
