@@ -20,7 +20,7 @@ It is on account of these terms in the loss function, it is called Variance Inva
 <center>
 <img src ='/images/loss.png'>
 </center>
-<center>A visual representation of the VICReg loss</center>
+<center>A visual representation of the VICReg loss (taken from [here](https://sigmoidprime.com/post/vicreg/))</center>
 ## Exploratory Latent Space Search Algorithm
 This algorithm is an unique approach to help increase labelling efficieny for a given class of data. We have used active learning aided algorithm, to find samples from minority classes. So what we actually do is to explore the latent space or representation space of a self-supervised algorithm. We assume, that similar samples, in the representation space form clusters. We use nearest neighbour search, and random search algorithm to explore the latent space, and then use a active learning component, to learn from the environment, and search newer clusters from the same class in the representation space.<br/>
 <center>
