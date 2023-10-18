@@ -58,7 +58,8 @@ Skills
   * ROOT-CERN
   * Chandra CIAO
   * NASA HEASOFT
-  * Healpix
+  * Healpix (healpy)
+  * NaMaster (pymaster)
 * Text Editors
   * Latex
   * Google docs
