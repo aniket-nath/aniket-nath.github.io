@@ -61,7 +61,9 @@ Skills
   * C/C++
   * Python
   * FORTRAN
-* Softwares
+* Libraries, Utilities and Softwares
+  * Github
+  * Numpy, Scipy, Astropy
   * ROOT-CERN
   * Chandra CIAO
   * NASA HEASOFT
