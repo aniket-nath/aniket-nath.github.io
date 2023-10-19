@@ -46,14 +46,14 @@ Schools Attended
   
 Skills
 ======
-* Human Languages
-  * English
-  * Bengali
-  * Hindi 
+* Communication Skills
+  * English - Full Professional Proficiency
+  * Bengali - Native or Bilingual Proficiency
+  * Hindi - Native or Bilingual Proficiency
 * Computer Languages
-  * Shell Script
+  * C/C++
   * Python
-  * Fortran
+  * FORTRAN
 * Softwares
   * ROOT-CERN
   * Chandra CIAO
