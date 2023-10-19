@@ -14,7 +14,7 @@ The Galactic Synchrotron emission is produced when relativistic electrons swirl 
 <center>
 <img src ='/images/synchrotron.png'> 
 </center>
-<center> The relativistic electrons swivel around the magnetic field lines (B-Field)</center>
+<center> The relativistic electrons swivel around the magnetic field lines (B-Field)(Taken from <a href="https://en.wikipedia.org/wiki/Synchrotron_radiation">Wikipedia</a>)</center>
  We are specifically interested in contribution of synchrotron to the Cosmic Microwave Background at high frequencies.We assume a power law distribution for the energy of relativistic electrons, i.e., we assume that the number of electrons in a specific energy range can be approximated as follows:
  <center>
  $$
