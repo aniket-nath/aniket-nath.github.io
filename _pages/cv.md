@@ -13,7 +13,7 @@ Education
 ======
 * Int. M.Sc. (Majoring in Physics), 2025(expected) - NISER, Bhubaneswar, India
 
-Work experience
+Research experience
 ======
 * Summer 2023: SERB MATRICS Fellow
   * Correlating Synchrotron radiation with Galactic Magnetic Field: I have tried to match statistics of data with that of generated from simulations and, used power spectrum and Minkowkski Functionals to study their statistics, and investigate their correlation.  
@@ -35,7 +35,14 @@ Work experience
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
   * Guides: [Dr. Mousumi Das](https://www.iiap.res.in/people/personnel/mousumi/mdas-site.htm) and [Dr. Santanu Mondal](https://www.iiap.res.in/?q=SantanuMondal).
   * Outcomes: Manuscript for publication has been submitted to a journal and is under review.
-  
+
+Achievements
+======
+* SERB MATRICS Fellow (Visiting Student at IIA, Bengaluru), 2023
+* Summer Research Fellow (IASc, INSA, NASI). 2022
+* DISHA (DAE Incentive Scheme for Holistic Science Education and Augmentation) Scholarship, 2020=25
+
+
 Schools Attended
 ======
 * Radio Astronomy Winter School (RAWS) : 2022
