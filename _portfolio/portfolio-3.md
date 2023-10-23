@@ -21,7 +21,7 @@ $$</center>
 <br/>
 Where, $R_{S}$ is the Schwarzschild radius of the black hole.
 <center><img src='/images/agn_morph.png' width="50%" height="50%"></center>
-<center> Morphology of an Active Galactic Nuclei </center>
+<center> Morphology of Active Galactic Nuclei (<a href="projects/aniket_diptarko/proposal.pdf">taken from here</a>) </center> <br/>
 The accretion Luminosity $(L_{A})$, which is luminosity of the corresponding radiation from an accreting system.
 <center>
 $$
