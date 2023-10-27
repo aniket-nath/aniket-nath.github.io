@@ -1,3 +1,4 @@
+<!---
 ---
 title: "Explorative Self-Supervised Latent Space Search Algorithm (ELSA)"
 excerpt: "This project has been done in collaboration with Diptarko Choudhury. We have tried to develop a better auto-labelling algorithm using Active Learning and Self-Supervised Representation Learning <br/>
@@ -29,4 +30,4 @@ This algorithm is an unique approach to help increase labelling efficieny for a 
 <center> Architecture of ELSA </center> <br/>
 We can see in the architecture, how the latent space or the represenatation space is being explored through nearest neighbour search, random search and how the oracle (an active learning component) is guiding the search for samples from the similar class.<br/> 
 The results of this project have been submitted to a conference as of now, and is under review.
-
+--->
