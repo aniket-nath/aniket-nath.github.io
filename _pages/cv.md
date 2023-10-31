@@ -41,7 +41,7 @@ Achievements
 ======
 * SERB MATRICS Fellow (Visiting Student at IIA, Bengaluru), 2023
 * Summer Research Fellow (IASc, INSA, NASI). 2022
-* DISHA (DAE Incentive Scheme for Holistic Science Education and Augmentation) Scholarship, 2020=25
+* DISHA (DAE Incentive Scheme for Holistic Science Education and Augmentation) Scholarship, 2020-25
 
 
 Schools Attended
