@@ -244,6 +244,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _randomthoughts
+  - scope:
+      path: ""
+      type: random_thoughts
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
