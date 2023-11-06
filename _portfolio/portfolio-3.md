@@ -1,33 +1,33 @@
+<!---
 ---
-title: "Taking a survey and analysing the X-Ray spectra of Dual AGNs"
-excerpt: "In this project, I took a survey of dual Active Galactic Nucleus, as reported in literature and examined the X-Ray spectra of different sources. I used Chanda CIAO and NASA HEASOFT softwares to download, bin and fit the spectra to different models. <br/>
+title: "Explorative Self-Supervised Latent Space Search Algorithm (ELSA)"
+excerpt: "This project has been done in collaboration with Diptarko Choudhury. We have tried to develop a better auto-labelling algorithm using Active Learning and Self-Supervised Representation Learning <br/>
+<center><img src='/images/elsa.png'></center>
+<center>The ELSA architecture</center>"
 
-<center><img src='/images/agn.png'></center>
-<center> A visual description of AGN geometry </center>
-"
 collection: portfolio.
 ---
 
-## Active Galactic Nuclei
-The centre of galaxy usually harbours a Super Massive Black Hole (SMBH), which forms the deepest potential of the galactic system. This SMBH essentially creates the trapping potential for the Galactic system to sustain itself and not fly out.<br/>
-The mass of a SMBH varies from nearly millions to billions time the solar mass. Some of these nuclei are highly luminous, and cannot be explained by stellar population. Such nuclei are called Active Galactic Nuclei. They emit radiation in all wavelengths. These have been detected in a major fraction of the elliptical and spiral galaxies.<br/>
-AGNs are basically accreting SMBHs. Gases and dust swirl around the black hole, forming an accretion disk. In the inner circle of the accretion disk, mass is absorbedinto the black hole, while a part of it is released as radiation and highly energetic matter. The radiation from the accretion from the closest stable orbit, gives us infomation about the near event horizon environment.<br/>
-The presence of molecular torii around the central machinery causes very strong absorption lines to appear in the corresponding spectrum. An accretion disk is formed, when matter with non-zero angular momentum falls into the gravitational potential, and looses energy as it swirls around the SMBH, finally accreting into the Black Hole.The process of accretion is an efficient process in the re-
-lease of radiation. The energy release in this process can be approximated to first order, by the change in potential energy $(\Delta E)$ of a test particle of mass $m$, in the gravitational eld of the black hole, falling into it.<br/>
+## Variance Invariance and Covariance Regularization (VICReg)
 <center>
-$$
-\Delta E = G \dfrac{Mm}{R_{S}}
-$$</center>
-<br/>
-Where, $R_{S}$ is the Schwarzschild radius of the black hole.
-<center><img src='/images/agn_morph.png' width="50%" height="50%"></center>
-<center> Morphology of Active Galactic Nuclei (<a href="projects/aniket_diptarko/proposal.pdf">taken from here</a>) </center> <br/>
-The accretion Luminosity $(L_{A})$, which is luminosity of the corresponding radiation from an accreting system.
-<center>
-$$
-L_A = \zeta \dfrac{GM(dm/dt)}{R_{S}}
-$$
+<img src ='/images/VICReg.png'>
 </center>
-Where $\zeta$ is related to the efficiency of the Accretion process.
-## Estimating geometry from Spectra
-As gas and matter accretes on to the black hole, from the last  stable orbit around it, a part of matter is ejected as energy or highly energetic beam of matter. This causes the emission of high energy radiation in X-Rays, gamma rays, etc. Some part of this radiation often is reflected, absorbed and re-emitted, and appears as spectral features over the X-ray continuum, which follows a power law. If we can pick up models, to fit this spectra, and fit to obtain specific parameters, we can extract information regarding the near event horizon geometry. Using tools like Chandra SHERPA, or NASA HEASOFT, one can constrain parameters that describe the geometry, simply by picking one of the models, and fitting the corresponding spectra. There are speculations regarding which model suits best for the purpose and explains the physics properly, we can pick up different models and constrain the geometry for each of the case.
+<center>The VICReg architecture</center> <br/>
+In the above figure, we have the VICReg([Bardes et. al, 2022](https://arxiv.org/abs/2105.04906)) architecture. This architecture, takes input two things, images and augmented images. These are then mapped to the representation space through an encoder, and then they are passed on to the projector to be mapped to the embedding space. The loss function for this architecture has three components
+- **Variance** - This makes sure that the features are as much different from each other as possible.
+- **Invariance** - This makes sure that even with applied augmentations, images come as closer as possible to each other. This is essentially a similarity metric between two augmented images.
+- **Covariance** - This makes sure, that different images are as far away from each other as possible.
+It is on account of these terms in the loss function, it is called Variance Invariance and Covariance Regularization (VICReg). The below image has been taken from [here](https://sigmoidprime.com/post/vicreg/).
+<center>
+<img src ='/images/loss.png'>
+</center>
+<center>A visual representation of the VICReg loss</center> <br/>
+## Exploratory Latent Space Search Algorithm
+This algorithm is an unique approach to help increase labelling efficieny for a given class of data. We have used active learning aided algorithm, to find samples from minority classes. So what we actually do is to explore the latent space or representation space of a self-supervised algorithm. We assume, that similar samples, in the representation space form clusters. We use nearest neighbour search, and random search algorithm to explore the latent space, and then use a active learning component, to learn from the environment, and search newer clusters from the same class in the representation space.<br/>
+<center>
+<img src ='/images/elsa.png'>
+</center>
+<center> Architecture of ELSA </center> <br/>
+We can see in the architecture, how the latent space or the represenatation space is being explored through nearest neighbour search, random search and how the oracle (an active learning component) is guiding the search for samples from the similar class.<br/> 
+The results of this project have been submitted to a conference as of now, and is under review.
+--->
