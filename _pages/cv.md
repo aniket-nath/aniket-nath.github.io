@@ -70,7 +70,7 @@ Skills
   * NASA HEASOFT
   * Healpix (healpy)
   * NaMaster (pymaster)
-* Text Editors
+* Utilities
   * Latex
   * Google docs
   * MS-Word
@@ -88,3 +88,4 @@ Service and leadership
 <!---* Club Memberships @NISER-->
    * Talks Organising Committe, NISER Astronomy Club
    * Founder Member of Vaktavya, NISER Debating Club
+   * Member of LGBTQIA+ collective (premature stage)
