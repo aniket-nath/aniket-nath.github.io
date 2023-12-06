@@ -50,7 +50,10 @@ Schools Attended
   * RAWS was jointly hosted by [IUCAA](https://www.iucaa.in/en/) and [NCRA](http://www.ncra.tifr.res.in/ncra/main)
   * I was selected for RAWS-2022
   * I learnt some basic techniques of Radio Astronomy and it's applications in different domains.
-  
+
+* 21 cm Cosmology Winter School : 2023
+  * Hosted by NISER Bhubaneswar
+  * Participant in the 2023 Winter School  
   
 Skills
 ======
