@@ -52,7 +52,7 @@ Schools Attended
   * I learnt some basic techniques of Radio Astronomy and it's applications in different domains.
 
 * 21 cm Cosmology Winter School : 2023
-  * Hosted by NISER Bhubaneswar
+  * Hosted by [NISER Bhubaneswar](https://www.niser.ac.in/).
   * Participant in the 2023 Winter School  
   
 Skills
