@@ -91,4 +91,5 @@ Service and leadership
 <!---* Club Memberships @NISER-->
    * Talks Organising Committe, NISER Astronomy Club
    * Founder Member of Vaktavya, NISER Debating Club
-   * Member of LGBTQIA+ collective (premature stage)
+<!---* Others -->    
+   * Rajya Puraskar Scout, The Bharat Scouts and Guides
