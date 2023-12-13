@@ -16,6 +16,12 @@ Education
 
 Research experience
 ======
+* Research Project 2023-24 (Ongoing)
+  * Spectral State classification of X-Ray Binaries using Machine Learning
+  * This project is being done in collaboration with [Dr. Santanu Mondal](https://www.iiap.res.in/?q=SantanuMondal) and [Diptarko Choudhury](https://in.linkedin.com/in/diptarko-choudhury-371518205).
+  * Work is in progress, and the outcomes will be updated in the website.
+
+
 * Summer 2023: SERB MATRICS Fellow
   * Correlating Synchrotron radiation with Galactic Magnetic Field: I have tried to match statistics of data with that of generated from simulations and, used power spectrum and Minkowkski Functionals to study their statistics, and investigate their correlation.  
   * Funded by Science and Engineering Research Board.
