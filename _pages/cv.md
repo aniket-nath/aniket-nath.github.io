@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Int. M.Sc. (Majoring in Physics), 2025- NISER, Bhubaneswar, India
-  * CGPA - 8.72/10
+  * CGPA - 8.65/10
 
 Research experience
 ======
