@@ -15,6 +15,6 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "New Section"
-    url: /newsection/
+#  - title: "New Section"
+#    url: /newsection/
 
