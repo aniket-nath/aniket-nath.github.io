@@ -21,7 +21,6 @@ We start off with the diffusion equation, which is obtained by removing the indu
 
 ## Evolution of Magnetic Fields
 
-<center>
-<img src="images/B_evolution_1.gif" />
+The present codes can be found <a href="https://colab.research.google.com/drive/1liwdb49bZvJ2Ns1BIuJ_O__W57uBnlsb?usp=sharing">here</a>
 
 </center>
