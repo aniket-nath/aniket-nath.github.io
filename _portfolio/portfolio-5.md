@@ -33,12 +33,7 @@ $$
 </center>
 Where $\eta_t$ is the sum of the two diffusivities.
 ## Evolution of Magnetic Fields
-In the primary case, we neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms. The derivatives with respect to z are then estimated as
-<center>
-$$
-\left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
-$$
-</center>
+In the primary case, we neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms. 
 <center>
 $$
 \frac{\partial B_r}{\partial t} =\eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2} \right]
@@ -50,6 +45,13 @@ $$
 
 $$
 </center>
+The derivatives with respect to z are then estimated as
+<center>
+$$
+\left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
+$$
+</center>
+This essentially gives us two independent equations of $B_r$ and $B_{\phi}$.
 The present codes can be found <a href="https://colab.research.google.com/drive/1liwdb49bZvJ2Ns1BIuJ_O__W57uBnlsb?usp=sharing">here</a>. As of now, I have only used Dirichlet boundary conditions, with different initial conditions. The pitch angle evolution has also been explored, in the corresponding code.
 
 <center>
@@ -58,5 +60,5 @@ The present codes can be found <a href="https://colab.research.google.com/drive/
 <img src='/images/B_evolution_2.gif' width='350' height='350' />
 <img src='/images/B_evolution_3.gif' width='350' height='350' />
 </center>
-<center> Evolution of the magnetic fields with different initial conditions
+<center> Evolution of the magnetic fields with different initial conditions in Diffusion</center>
 
