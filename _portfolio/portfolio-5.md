@@ -36,12 +36,12 @@ Where $\eta_t$ is the sum of the two diffusivities.
 In the primary case, we neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus If we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms, with the $\partial^2_z$ replaced by terms that scale as $1/h^2$.
   <center>
 $$
-\frac{\partial B_r}{\partial t} =\eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r)  + \frac{\partial^2 B_r}{\partial z^2} \right)
+\frac{\partial B_r}{\partial t} =\eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2} \right]
 
 $$
 $$
 
-\frac{\partial B_{\phi}}{\partial t} = \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) + \frac{\partial^2 B_{\phi}}{\partial z^2} \right)
+\frac{\partial B_{\phi}}{\partial t} = \eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) \right) + \frac{\partial^2 B_{\phi}}{\partial z^2} \right]
 
 $$
 
