@@ -26,9 +26,9 @@ The present codes can be found <a href="https://colab.research.google.com/drive/
 
 <center>
 
-<img src='/images/B_evolution_1.gif' width='200' height='200' />
-<img src='/images/B_evolution_2.gif' width='200' height='200' />
-<img src='/images/B_evolution_3.gif' width='200' height='200' />
+<img src='/images/B_evolution_1.gif' width='250' height='250' />
+<img src='/images/B_evolution_2.gif' width='250' height='250' />
+<img src='/images/B_evolution_3.gif' width='250' height='250' />
 </center>
 <center> Evolution of the magnetic fields with different initial conditions
 
