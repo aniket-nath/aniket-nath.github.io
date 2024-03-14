@@ -26,7 +26,7 @@ The present codes can be found <a href="https://colab.research.google.com/drive/
 
 <!-- <center> -->
 
-<img src='/images/galaxy.jpg' width='400' height='400' />
+<img src='/images/B_evolution_1.gif_' width='400' height='400' />
 
 <!-- </center> -->
 
