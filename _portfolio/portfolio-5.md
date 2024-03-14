@@ -24,9 +24,11 @@ We start off with the diffusion equation, which is obtained by removing the indu
 
 The present codes can be found <a href="https://colab.research.google.com/drive/1liwdb49bZvJ2Ns1BIuJ_O__W57uBnlsb?usp=sharing">here</a>
 
-<!-- <center> -->
+<center>
 
 <img src='/images/B_evolution_1.gif' width='400' height='400' />
-
-<!-- </center> -->
+<img src='/images/B_evolution_2.gif' width='400' height='400' />
+<img src='/images/B_evolution_3.gif' width='400' height='400' />
+</center>
+<center> Evolution of the magnetic fields with different initial conditions
 
