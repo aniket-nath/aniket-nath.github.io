@@ -3,7 +3,7 @@ title: "Solving Galactic Dynamo Equations and Exploring Fountain Flows"
 excerpt: "This project is done as a part of the course I took in Magnetohydrodynamics and Plasma Physics. I have attempted to solve the Dynamo equations, starting off with the Diffusion equations, and then gradually including the induction terms to obtain the final solution <br/>
 
 <center><img src='/images/galaxy.jpg' width='400' height='400' /></center>
-<center> A visual description of AGN geometry </center>
+<center> Galactic Magnetic Fields </center>
 "
 collection: portfolio.
 ---
@@ -26,7 +26,7 @@ The present codes can be found <a href="https://colab.research.google.com/drive/
 
 <!-- <center> -->
 
-<img src='/images/B_evolution_1.gif_' width='400' height='400' />
+<img src='/images/B_evolution_1.gif' width='400' height='400' />
 
 <!-- </center> -->
 
