@@ -22,17 +22,28 @@ We start off with the diffusion equation, which is obtained by removing the indu
 Finally, we aim to solve the following equations numerically
 <center>
 $$
-\frac{\partial B_r}{\partial t} = - \frac{V_r}{r} \frac{\partial}{\partial r} (rB_r) - \frac{\partial}{\partial z} (V_zB_r) - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2}
+\frac{\partial B_r}{\partial t} = - \frac{V_r}{r} \frac{\partial}{\partial r} (rB_r) - \frac{\partial}{\partial z} (V_zB_r) - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r)  + \frac{\partial^2 B_r}{\partial z^2} \right)
 
 $$
 $$
 
-\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) \right) + \frac{\partial^2 B_{\phi}}{\partial z^2}
+\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) + \frac{\partial^2 B_{\phi}}{\partial z^2} \right)
 
 $$
 </center>
+Where $\eta_t$ is the sum of the two diffusivities.
 ## Evolution of Magnetic Fields
-In the primary case, we neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus If we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have. 
+In the primary case, we neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus If we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms, with the $\partial^2_z$ replaced by terms that scale as $1/h^2$.
+  <center>
+$$
+\frac{\partial B_r}{\partial t} =\eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r)  + \frac{\partial^2 B_r}{\partial z^2} \right)
+
+$$
+$$
+
+\frac{\partial B_{\phi}}{\partial t} = \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) + \frac{\partial^2 B_{\phi}}{\partial z^2} \right)
+
+$$
 
 The present codes can be found <a href="https://colab.research.google.com/drive/1liwdb49bZvJ2Ns1BIuJ_O__W57uBnlsb?usp=sharing">here</a>. As of now, I have only used Dirichlet boundary conditions, with different initial conditions. The pitch angle evolution has also been explored, in the corresponding code.
 
