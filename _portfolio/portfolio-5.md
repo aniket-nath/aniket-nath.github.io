@@ -22,12 +22,12 @@ We start off with the diffusion equation, which is obtained by removing the indu
 Finally, we aim to solve the following equations numerically
 <center>
 $$
-\frac{\partial B_r}{\partial t} = - \frac{V_r}{r} \frac{\partial}{\partial r} (rB_r) - \frac{\partial}{\partial z} (V_zB_r) - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r)  + \frac{\partial^2 B_r}{\partial z^2} \right)
+\frac{\partial B_r}{\partial t} = - \frac{V_r}{r} \frac{\partial}{\partial r} (rB_r) - \frac{\partial}{\partial z} (V_zB_r) - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2} \right]
 
 $$
-$$
 
-\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) + \frac{\partial^2 B_{\phi}}{\partial z^2} \right)
+$$
+\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi})\right) + \frac{\partial^2 B_{\phi}}{\partial z^2}  \right] 
 
 $$
 </center>
