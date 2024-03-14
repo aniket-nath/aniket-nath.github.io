@@ -18,11 +18,23 @@ $$
 In the case of Galactic dynamo, the toroidal and poloidal fields couple together to give rise to galactic dynamos.
 <br/>
 We start off with the diffusion equation, which is obtained by removing the induction term in the mean field equation. In real cases, it is the trade off between the induction term and the diffusion term that essentially gives rise to the dynamo. For our case, we start off with just the diffusion term, which is also analytically solvable. We  particularly are looking into the radial component and axial component of the Magnetic field in cylindrical coordinates. The component of the Magnetic field along z is assumed to be constant, and the derivatives of z are replaced by terms with scale height in denominator. We have also assumed axial symmetry, making the $\phi$ derivatives zero. In this context, we try to solve the diffusion equation.
+<br/>
+Finally, we aim to solve the following equations numerically
+<center>
+$$
+\frac{\partial B_r}{\partial t} = - \frac{V_r}{r} \frac{\partial}{\partial r} (rB_r) - \frac{\partial}{\partial z} (V_zB_r) - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2}
+
+$$
+$$
+
+\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) \right) + \frac{\partial^2 B_{\phi}}{\partial z^2}
+
+$$
 
 ## Evolution of Magnetic Fields
 
 
-The present codes can be found <a href="https://colab.research.google.com/drive/1liwdb49bZvJ2Ns1BIuJ_O__W57uBnlsb?usp=sharing">here</a>. As of now, I have only used Dirichlet boundary conditions
+The present codes can be found <a href="https://colab.research.google.com/drive/1liwdb49bZvJ2Ns1BIuJ_O__W57uBnlsb?usp=sharing">here</a>. As of now, I have only used Dirichlet boundary conditions, with different initial conditions. The pitch angle evolution has also been explored, in the corresponding code.
 
 <center>
 
