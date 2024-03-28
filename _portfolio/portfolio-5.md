@@ -78,11 +78,11 @@ $$
 \Omega = \dfrac{\Omega_0}{\sqrt(1+\left(\frac{r}{R_0}\right)^2)}
 $$
 </center>
-We have chosen a constant value for $\alpha$ and $\Omega_0$ and $R_0$, for this study. We have observed that for an Dynamo number D which is greater than 0.5, we observe first a diffusion of both the magnetic field components, and then the dynamo effects start playing and leads to a growth of the magneitc fields exponentially.
+We have chosen a constant value for $\alpha$ and $\Omega_0$ and $R_0$, for this study. We have observed that for an Dynamo number D which is greater than 0.5, we observe first a diffusion of both the magnetic field components, and then the dynamo effects start playing and leads to a growth of the magnetic fields exponentially.
 <center>
 
 <img src='/images/B_evolution_alpha.gif' width='550' height='550' />
-
+Evolution of Magnetic Field for Dynamo Number greater than the Critical value.
 </center>
 
 
