@@ -82,6 +82,8 @@ We have chosen a constant value for $\alpha$ and $\Omega_0$ and $R_0$, for this 
 <center>
 
 <img src='/images/B_evolution_alpha.gif' width='550' height='550' />
+</center>
+<center>
 Evolution of Magnetic Field for Dynamo Number greater than the Critical value.
 </center>
 
