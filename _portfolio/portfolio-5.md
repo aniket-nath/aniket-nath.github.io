@@ -62,7 +62,7 @@ The present codes can be found <a href="https://colab.research.google.com/drive/
 </center>
 <center> Evolution of the magnetic fields with different initial conditions in Diffusion</center>
 
-## The $\alpha \Omega effect$ (Part 2)
+## The $\alpha$ - $\Omega$ effect (Part 2)
 Now, we also include the $\alpha$ and $\Omega$ terms in our equation to demonstrate how the magnetic energy is amplified by the coupling of these two effects. As of now, we neglect the $\alpha^2$ effect. Thus we have:
 <center>
 $$
@@ -75,7 +75,7 @@ $$
 For the z-derivatives we use similar approximation and thus try to solve this equation now. For this study, I have assumed $\alpha$ to be constant, with $\Omega$ having the following functional form.
 <center>
 $$
-\Omega = \dfrac{\Omega_0}{\sqrt(1+\left(\frac{r}{R_0}\right)^2)}
+\Omega = \dfrac{\Omega_0}{\sqrt{(1+\left(\frac{r}{R_0}\right)^2)}
 $$
 </center>
 We have chosen a constant value for $\alpha$ and $\Omega_0$ and $R_0$, for this study. We have observed that for an Dynamo number D which is greater than 0.5, we observe first a diffusion of both the magnetic field components, and then the dynamo effects start playing and leads to a growth of the magnetic fields exponentially.
