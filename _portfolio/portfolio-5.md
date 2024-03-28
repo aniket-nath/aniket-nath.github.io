@@ -62,3 +62,27 @@ The present codes can be found <a href="https://colab.research.google.com/drive/
 </center>
 <center> Evolution of the magnetic fields with different initial conditions in Diffusion</center>
 
+## The $\alpha \Omega effect$ (Part 2)
+Now, we also include the $\alpha$ and $\Omega$ terms in our equation to demonstrate how the magnetic energy is amplified by the coupling of these two effects. As of now, we neglect the $\alpha^2$ effect. Thus we have:
+<center>
+$$
+\frac{\partial B_r}{\partial t} = - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2} \right]
+$$
+$$
+\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi})\right) + \frac{\partial^2 B_{\phi}}{\partial z^2}  \right] 
+$$
+</center>
+For the z-derivatives we use similar approximation and thus try to solve this equation now. For this study, I have assumed $\alpha$ to be constant, with $\Omega$ having the following functional form.
+<center>
+$$
+\Omega = \dfrac{\Omega_0}{\sqrt(1+\left(\frac{r}{R_0}\right)^2)}
+$$
+</center>
+We have chosen a constant value for $\alpha$ and $\Omega_0$ and $R_0$, for this study. We have observed that for an Dynamo number D which is greater than 0.5, we observe first a diffusion of both the magnetic field components, and then the dynamo effects start playing and leads to a growth of the magneitc fields exponentially.
+<center>
+
+<img src='/images/B_evolution_alpha.gif' width='350' height='350' />
+
+</center>
+
+
