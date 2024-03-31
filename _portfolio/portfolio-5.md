@@ -102,4 +102,4 @@ The Evolution of magnetic field components at a local position of r = 5.
 <center>
 The change in $B^2$ for each Dynamo number.
 </center>
-
+The codes for this part can be found <a href="https://colab.research.google.com/drive/1nx94qIvetfV9nYqES-05cV_Zjse3qTHU?usp=sharing">here</a>
