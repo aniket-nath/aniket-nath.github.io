@@ -81,10 +81,25 @@ $$
 We have chosen a constant value for $\alpha$ and $\Omega_0$ and $R_0$, for this study. We have observed that for an Dynamo number D which is greater than 0.5, we observe first a diffusion of both the magnetic field components, and then the dynamo effects start playing and leads to a growth of the magnetic fields exponentially.
 <center>
 
-<img src='/images/B_evolution_alpha.gif' width='550' height='550' />
+<img src='/images/B_evolution_alpha.gif' width='350' height='350' />
+<img src='/images/B_evolution_alpha_1.gif' width='350' height='350' />
+<img src='/images/B_evolution_alpha_2.gif' width='350' height='350' />
 </center>
 <center>
 Evolution of Magnetic Field for Dynamo Number greater than the Critical value.
 </center>
+We have also compared the the evolution of the magnetic field, at a specific location, for our case it was r=5 (the choice is arbitrary). We have seen that, in the initial time steps, the diffusion dominates, but at a specific point the $\alpha-\Omega$ effect starts pumping up the magnetic field. When observed at a global scale, the net magnetic energy increases as well (which is proportional to $B^2$). For the critical value of D, we have observed that the growth becomes zero, after some time, and at the other extrema, a decay in the magnetic field energy is observed.
+<center>
+<img src='/images/local_mag.png' width='450' height='450' />
+</center>
+<center>
+The Evolution of magnetic field components at a local position of r = 5.
+</center>
 
+<center>
+<img src='/images/magnetic_energy.png' width='450' height='450' />
+</center>
+<center>
+The change in $B^2$ for each Dynamo number.
+</center>
 
