@@ -90,7 +90,7 @@ Evolution of Magnetic Field for Dynamo Number greater than the Critical value.
 </center>
 We have also compared the the evolution of the magnetic field, at a specific location, for our case it was r=5 (the choice is arbitrary). We have seen that, in the initial time steps, the diffusion dominates, but at a specific point the $\alpha-\Omega$ effect starts pumping up the magnetic field. When observed at a global scale, the net magnetic energy increases as well (which is proportional to $B^2$). For the critical value of D, we have observed that the growth becomes zero, after some time, and at the other extrema, a decay in the magnetic field energy is observed.
 <center>
-<img src='/images/local_mag.png' width='450' height='450' />
+<img src='/images/local_mag.png' width='550' height='550' />
 </center>
 <center>
 The Evolution of magnetic field components at a local position of r = 5.
