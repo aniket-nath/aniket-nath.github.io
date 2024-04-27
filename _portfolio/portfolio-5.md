@@ -119,7 +119,6 @@ $$
 
 $$
 \frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi})\right) + \frac{\partial^2 B_{\phi}}{\partial z^2}  \right] 
-
 $$
 
 The derivatives with respect to z are then estimated as
@@ -128,13 +127,10 @@ $$
 \left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
 $$
 </center>
-
-
-
 ### Theory
-
+ABCD
 ### Methods
-
+ABCD
 ### Results
 
 
