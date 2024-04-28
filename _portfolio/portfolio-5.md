@@ -109,7 +109,7 @@ The codes for this part can be found <a href="https://colab.research.google.com/
 Study of the non-linear dynamo equation in the context of scales relevant to galaxies is pivotal to get an insight into the dynamos that generate the magnetic fields of galaxies. In this project, we have investigated the dynamo equation, starting off from the Induction equation. We have observed how diffusion comes into play, and adding alpha-omega terms at certain levels makes the dynamo action active. We also add the fountain flow term in the dynamo equation and see how the fields change over time.
 
 ### Introduction
-All phenomenons of large-scale magnetic field generation are modelled using equation of Magnetohydrodynamics. To start off, we essentially write the Induction Equation in terms of the Mean Field Component of the Magnetic Fields. On writing this equation in cylindrical coordinates, we get three equations dictating the evolution of Magentic field components in the $r$, $\phi$, and $z$ components of the equation. First to see how the dynamo is actually powered up through the $\alpha$, $\Omega$ dynamo, we shall do a part by part analysis. We also wish to explore fountain flows in Galaxies and how they affect dynamo equations. We have taken theoretical motivation from (Rodrigues et. al., ). Thus we first have the indcution equation which is given by
+All phenomenons of large-scale magnetic field generation are modelled using equation of Magnetohydrodynamics. To start off, we essentially write the Induction Equation in terms of the Mean Field Component of the Magnetic Fields. On writing this equation in cylindrical coordinates, we get three equations dictating the evolution of Magentic field components in the $r$, $\phi$, and $z$ components of the equation. First to see how the dynamo is actually powered up through the $\alpha$, $\Omega$ dynamo, we shall do a part by part analysis. We also wish to explore fountain flows in Galaxies and how they affect dynamo equations. We have taken theoretical motivation from (Rodrigues et. al., ). Thus we first have the induction equation which is given by
 <center>
 $$
 \frac{\partial \mathbf{B}}{\partial t} = \nabla \times (\mathbf{v} \times \mathbf{B}) + \eta \nabla^2 \mathbf{B}
@@ -124,14 +124,16 @@ $$
 
 $$
 </center>
-Where the barred component is the mean field, and the component in lower case is the turbulent component. Thus, if we do a average over scales larger than the scales of the turbulent component, we are only left with the mean field component, and we will deal will the equations obtained by this method. It is valid to question as to why are we neglecting random fields for this part. Given the physical scales of a galaxy, it is safe to do this averaging. We must also note that the effect of turbulence is not actually entirely removed. Turbulence components tend to diffuse out the energy from the large scale magnetic fields, and the turbulence component is actually accounted for by the diffusivity parameter $\eta_t$. For our analysis, we have taken
+Where the barred component is the mean field, and the component in lower case is the turbulent component. Thus, if we do a average over scales larger than the scales of the turbulent component, we are only left with the mean field component, and we will deal will the equations obtained by this method. It is valid to question as to why are we neglecting random fields for this part. Given the physical scales of a galaxy, it is safe to do this averaging. We must also note that the effect of turbulence is not actually entirely removed. Turbulence components tend to diffuse out the energy from the large scale magnetic fields, and the turbulence component is actually accounted for by the diffusivity parameter $\eta_t$.
 <center>
 $$
-\eta_t =  \frac{1}{3}\tau \v_{rms}^2
+\eta_t =  \frac{1}{3}\tau v_{rms}^2
 $$
 </center>
-Where $\tau$ is the timescales for turbulent flows, and $v_{rms}$ is the typical flow velocity of the
-### Theory
+Where $\tau$ is the timescales for turbulent flows, and $v_{rms}$ is the typical turbulent flow velocity. We therefore have accounted for turbulence in a simpler fashion by this parameter $\eta_t$.
+Now for the dynamo to amplify the magnetic flux, we need to $\alpha$-$\Omega$ effect. This competes with the diffusion term to generate higher mean field amplitudes. We need atleast $\alpha$ and $\Omega$ effect for this. For our case of analysis, we have neglected $\alpha^2$ effect. I will shortly desribe these effects more rigorously in coming sections. Thus we have a picture now that, turbulent motions tend to diffuse out the magnetic field strength. If there is some machineary which transports the turbulence out of system, then it should help in retaining the large scale fields. Fountain flow is one such machinery
+
+
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
 <center>
 $$
