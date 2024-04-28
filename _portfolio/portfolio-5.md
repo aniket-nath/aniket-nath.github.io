@@ -160,7 +160,7 @@ $$
 $$
 </center>
 For the first part, we neglect all field sustaining effect, and just look into the diffusion equation.
-We neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms. 
+We neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms, and our equations are as follows. 
 <center>
 
 $$
@@ -170,9 +170,11 @@ $$
 $$
 \frac{\partial \bar{B}_{\phi}}{\partial t} = \eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi}) \right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2} \right]
 $$
-
-
+ 
+We see that the magnetic fields dissipate quuickly in this case, and dynamo is not in action as shown in the results section.
 </center>
+
+Now we proceed to add the $\alpha$ and $\Omega$ terms, neglecting the $alpha^2$ effect.
 
 ABCD
 ### Results
