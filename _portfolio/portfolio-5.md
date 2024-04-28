@@ -115,7 +115,7 @@ All phenomenons of large-scale magnetic field generation are modelled using equa
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. An analysis of this effect is essentially
 <center>
 $$
-\frac{\partial B_r}{\partial t} = - \frac{V_r}{r} \frac{\partial}{\partial r} (rB_r) - \frac{\partial}{\partial z} (V_zB_r) - \frac{\partial}{\partial z} (\alpha B_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2} \right]
+\frac{\partial \bar{B_r}}{\partial t} = - \frac{\bar{V_r}}{r} \frac{\partial}{\partial r} (r\bar{B_r}) - \frac{\partial}{\partial z} (\bar{V_z}\bar{B_r}) - \frac{\partial}{\partial z} (\alpha \bar{B_{\phi}}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_r}) \right) + \frac{\partial^2 \bar{B_r}}{\partial z^2} \right]
 
 $$
 
@@ -142,12 +142,19 @@ $$
 \left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
 $$
 </center>
-Solving for this case, we end up with a solution, in which whatever existing field is there, we 
+As evident from the equation, we have 
 
 ### Methods
 ABCD
 ### Results
+Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
+<center>
 
+<img src='/images/B_evolution_1.gif' width='350' height='350' />
+<img src='/images/B_evolution_2.gif' width='350' height='350' />
+<img src='/images/B_evolution_3.gif' width='350' height='350' />
+</center>
+<center> Evolution of the magnetic fields with different initial conditions in the Diffusive case</center>
 ### References 
 
 
