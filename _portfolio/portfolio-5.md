@@ -196,6 +196,13 @@ $$
 </center>
 Where $h$ is the scale height at each point of the galaxy, along z. This essentially quantifies, whether we will have a growing solution, or decaying solution, or a saturating solution. For a typical dynamo number (we average over all r), called critical dynamo number, we essentially have the saturating solution. In this case, only for a dynamo number that is greater than the critical dynamo number, we have a growing solution.
 
+For the choice of $\Omega$ and $\alpha$, we take a functional form described as:
+<center>
+$$
+\Omega = \dfrac{\Omega_0}{\sqrt{ \left(1+\left(\frac{r}{R_0}\right)^2\right) }}
+$$
+</center>
+
 Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $$\bar{V_{r}$$ term is neglected, retaining only flow perpendicular to the disk i.e., $$\bar{V_z}$$.
 
 <center>
