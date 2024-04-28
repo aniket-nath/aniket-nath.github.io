@@ -196,14 +196,15 @@ $$
 </center>
 Where $h$ is the scale height at each point of the galaxy, along z. This essentially quantifies, whether we will have a growing solution, or decaying solution, or a saturating solution. For a typical dynamo number (we average over all r), called critical dynamo number, we essentially have the saturating solution. In this case, only for a dynamo number that is greater than the critical dynamo number, we have a growing solution.
 
-Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $\bar{V_{r}$ term is neglected, retaining only flow perpendicular to the disk i.e., $\bar{V_z}$.
+Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $$\bar{V_{r}$$ term is neglected, retaining only flow perpendicular to the disk i.e., $$\bar{V_z}$$.
+
 <center>
 $$
-\frac{\partial \bar{B}_r}{\partial t} = -\frac{partial \bar{V_z} \bar{B_r}}{\partial z} - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
+\frac{\partial \bar{B}_r}{\partial t} = -\frac{\partial \bar{V_z} \bar{B_r}}{\partial z} - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
 $$
 
 $$
-\frac{\partial \bar{B}_{\phi}}{\partial t} = -\frac{partial \bar{V_z} \bar{B_r}}{\partial z}-q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
+\frac{\partial \bar{B}_{\phi}}{\partial t} = -\frac{p\artial \bar{V_z} \bar{B_{\phi}}}{\partial z}-q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
 $$
 </center>
 ### Results
