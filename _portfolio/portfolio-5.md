@@ -160,7 +160,19 @@ $$
 $$
 </center>
 For the first part, we neglect all field sustaining effect, and just look into the diffusion equation.
-We neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms.
+We neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms. 
+<center>
+
+$$
+\frac{\partial \bar{B}_r}{\partial t} =\eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
+$$
+
+$$
+\frac{\partial \bar{B}_{\phi}}{\partial t} = \eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi}) \right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2} \right]
+$$
+
+
+</center>
 
 ABCD
 ### Results
