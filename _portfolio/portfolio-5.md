@@ -131,7 +131,9 @@ $$
 $$
 </center>
 Where $\tau$ is the timescales for turbulent flows, and $v_{rms}$ is the typical turbulent flow velocity. We therefore have accounted for turbulence in a simpler fashion by this parameter $\eta_t$.
-Now for the dynamo to amplify the magnetic flux, we need to $\alpha$-$\Omega$ effect. This competes with the diffusion term to generate higher mean field amplitudes. We need atleast $\alpha$ and $\Omega$ effect for this. For our case of analysis, we have neglected $\alpha^2$ effect. I will shortly desribe these effects more rigorously in coming sections. Thus we have a picture now that, turbulent motions tend to diffuse out the magnetic field strength. If there is some machineary which transports the turbulence out of system, then it should help in retaining the large scale fields. Fountain flow is one such machinery
+Now for the dynamo to amplify the magnetic flux, we need to $\alpha$-$\Omega$ effect. This competes with the diffusion term to generate higher mean field amplitudes. We need atleast $\alpha$ and $\Omega$ effect for this. For our case of analysis, we have neglected $\alpha^2$ effect. I will shortly desribe these effects more rigorously in coming sections.
+
+Thus we have a picture now that, turbulent motions tend to diffuse out the magnetic field strength. If there is some machineary which transports the turbulence out of system, then it should help in retaining the large scale fields. Fountain flow is one such machinery. Essentially, gas when heated up by supernovae expands and rises above the plane of the galaxy, transporting the small scale turbulences along with it
 
 
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
