@@ -253,8 +253,12 @@ The codes for this part can be found <a href="https://colab.research.google.com/
 
 The corresponding $\alpha-\Omega$ for this specific case can also be illustrated as follows
 <center>
-<img src='/images/Omega_profile.png' width='500' height='500' />
-<img src='/images/Alpha_omega.png' width='500' height='500' />
+<img src='/images/Omega_profile.png' width='400' height='400' />
+<img src='/images/Alpha_profile.png' width='400' height='400' />
+<img src='/images/Dynamo_profile.png' width='400' height='400' />
+</center>
+<center>
+$\alpha$ and $\Omega$ profiles, and Dynamo number over r. 
 </center>
 To compare our results with the standard results provided, we have the following result as well.
 <center>
