@@ -142,6 +142,7 @@ $$
 \left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
 $$
 </center>
+Solving for this case, we end up with a solution, in which whatever existing field is there, we 
 
 ### Methods
 ABCD
