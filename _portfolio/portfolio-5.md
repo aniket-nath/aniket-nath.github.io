@@ -115,12 +115,12 @@ All phenomenons of large-scale magnetic field generation are modelled using equa
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. An analysis of this effect is essentially
 <center>
 $$
-\frac{\partial \bar{B_r}}{\partial t} = - \frac{\bar{V_r}}{r} \frac{\partial}{\partial r} (r\bar{B_r}) - \frac{\partial}{\partial z} (\bar{V_z}\bar{B_r}) - \frac{\partial}{\partial z} (\alpha \bar{B_{\phi}}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_r}) \right) + \frac{\partial^2 \bar{B_r}}{\partial z^2} \right]
+\frac{\partial \bar{B_r}}{\partial t} = - \frac{\bar{V_r}}{r} \frac{\partial}{\partial r} (r\bar{B_r}) - \frac{\partial}{\partial z} (\bar{V_z}\bar{B_r}) - \frac{\partial}{\partial z} (\alpha \bar{B_{\phi}}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_r}) \right) + \frac{\partial^2 \bar{B_r}{\partial z^2} \right]
 
 $$
 
 $$
-\frac{\partial B_{\phi}}{\partial t} = -q\Omega B_r - \frac{\partial}{\partial r}(V_rB_{\phi}) - \frac{\partial}{\partial z}(V_zB_{\phi}) + \frac{\partial}{\partial z}(\alpha B_r) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi})\right) + \frac{\partial^2 B_{\phi}}{\partial z^2}  \right] 
+\frac{\partial \bar{B_{\phi}}}{\partial t} = -q\Omega \bar{B_r} - \frac{\partial}{\partial r}(\bar{V_r}\bar{B_{\phi}}) - \frac{\partial}{\partial z}(\bar{V_z}\bar{B_{\phi}}) + \frac{\partial}{\partial z}(\alpha \bar{B_r}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_{\phi}})\right) + \frac{\partial^2 \bar{B_{\phi}}}{\partial z^2}  \right] 
 $$
 </center>
 We have for the first part of the analysis, only the diffusion equation, which essentially ignores all mechanices that lead to the $\alpha$-$\Omega$ dynamo.
@@ -132,8 +132,7 @@ $$
 $$
 $$
 
-\frac{\partial B_{\phi}}{\partial t} = \eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_{\phi}) \right) + \frac{\partial^2 B_{\phi}}{\partial z^2} \right]
-
+\frac{\partial B_{\phi}}{\partial t} = \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_{\phi}})\right) + \frac{\partial^2 \bar{B_{\phi}}}{\partial z^2}  \right] 
 $$
 </center>
 The derivatives with respect to z are then estimated as
