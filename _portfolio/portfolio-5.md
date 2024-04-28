@@ -208,7 +208,7 @@ $$
 \alpha = \tau^2 v_{rms}^2 \frac{\Omega}{h}
 $$
 </center>
-
+Depending on the interplay between these, we get the necessary solutions.
 
 Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $$\bar{V_{r}$$ term is neglected, retaining only flow perpendicular to the disk i.e., $$\bar{V_z}$$.
 
