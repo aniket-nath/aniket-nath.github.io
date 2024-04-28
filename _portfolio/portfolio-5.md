@@ -181,7 +181,7 @@ $$
 $$
 
 $$
-\frac{\partial \bar{B}_{\phi}}{\partial t} = -q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
+\frac{\partial \bar{B}_{\phi}}{\partial t} = -q\Omega \bar{B}_r + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
 $$
 </center>
 The inclusion of this terms essentially accounts for the $\alpha-\Omega$ effect. To get a better physical picture, $\alpha$ term essentially turns the toroidal field into poloidal field in cylindrical geometry, and $\Omega$ term turns poloidal field into toroidal field. These factors compete with the diffusive terms, hence for a specific case of $\alpha$ and $\Omega$, with respect to $\eta_t$. Thus we define a quantity called the dynamo number, which is defined as:
@@ -214,11 +214,11 @@ Now, we include the terms of fountain flows. We assume that the radial outflow i
 
 <center>
 $$
-\frac{\partial \bar{B}_r}{\partial t} = -\frac{\partial \bar{V_z} \bar{B_r}}{\partial z} - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
+\frac{\partial \bar{B}_r}{\partial t} = -\frac{\partial (\bar{V_z} \bar{B_r})}{\partial z} - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
 $$
 
 $$
-\frac{\partial \bar{B}_{\phi}}{\partial t} = -\frac{\partial \bar{V_z} \bar{B_{\phi}}}{\partial z}-q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
+\frac{\partial \bar{B}_{\phi}}{\partial t} = -\frac{\partial (\bar{V_z} \bar{B_{\phi})}}{\partial z}-q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
 $$
 </center>
 We expect outflows outward within the luminous disk of the galaxy, for our consideration, we assume a constant outflow at all radius to start with. Another feasible part is when we have decreasing $V_z$ over r, which essentially means, the fountain flows decreases as we go towards the end of the galaxies.
