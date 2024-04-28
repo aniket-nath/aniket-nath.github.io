@@ -202,6 +202,7 @@ $$
 \Omega = \dfrac{\Omega_0}{\sqrt{ \left(1+\left(\frac{r}{R_0}\right)^2\right) }}
 $$
 </center>
+We fix $$R_0$$ to a specific value
 
 Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $$\bar{V_{r}$$ term is neglected, retaining only flow perpendicular to the disk i.e., $$\bar{V_z}$$.
 
@@ -215,7 +216,9 @@ $$
 $$
 </center>
 We expect outflows outward within the luminous disk of the galaxy, for our consideration, we assume a constant outflow at all radius to start with. Another feasible part is when we have decreasing $V_z$ over r, which essentially means, the fountain flows decreases as we go towards the end of the galaxies.
+
 ### Results
+
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
 <center>
 
