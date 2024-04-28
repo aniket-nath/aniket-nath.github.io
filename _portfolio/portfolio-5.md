@@ -109,7 +109,7 @@ The codes for this part can be found <a href="https://colab.research.google.com/
 Study of the non-linear dynamo equation in the context of scales relevant to galaxies is pivotal to get an insight into the dynamos that generate the magnetic fields of galaxies. In this project, we have investigated the dynamo equation, starting off from the Induction equation. We have observed how diffusion comes into play, and adding alpha-omega terms at certain levels makes the dynamo action active. We also add the fountain flow term in the dynamo equation and see how the fields change over time.
 
 ### Introduction
-All phenomenons of large-scale magnetic field generation are modelled using equation of Magnetohydrodynamics. To start off, we essentially write the Induction Equation in terms of the Mean Field Component of the Magnetic Fields. On writing this equation in cylindrical coordinates, we get three equations dictating the evolution of Magentic field components in the $r$, $\phi$, and $z$ components of the equation. First to see how the dynamo is actually powered up through the $\alpha$, $\Omega$ dynamo, we shall do a part by part analysis. We also wish to explore fountain flows in Galaxies and how they affect dynamo equations. We have taken theoretical motivation from (Rodrigues et. al., ). Thus we first have the induction equation which is given by
+All phenomenons of large-scale magnetic field generation are modelled using equation of Magnetohydrodynamics. To start off, we essentially write the Induction Equation in terms of the Mean Field Component of the Magnetic Fields. On writing this equation in cylindrical coordinates, we get three equations dictating the evolution of Magentic field components in the $r$, $\phi$, and $z$ components of the equation. First to see how the dynamo is actually powered up through the $\alpha$, $\Omega$ dynamo, we shall do a part by part analysis. We also wish to explore fountain flows in Galaxies and how they affect dynamo equations. We have taken theoretical motivation from (Rodrigues et. al., 2019). Thus we first have the induction equation which is given by
 <center>
 $$
 \frac{\partial \mathbf{B}}{\partial t} = \nabla \times (\mathbf{v} \times \mathbf{B}) + \eta \nabla^2 \mathbf{B}
@@ -133,8 +133,13 @@ $$
 Where $\tau$ is the timescales for turbulent flows, and $v_{rms}$ is the typical turbulent flow velocity. We therefore have accounted for turbulence in a simpler fashion by this parameter $\eta_t$.
 Now for the dynamo to amplify the magnetic flux, we need to $\alpha$-$\Omega$ effect. This competes with the diffusion term to generate higher mean field amplitudes. We need atleast $\alpha$ and $\Omega$ effect for this. For our case of analysis, we have neglected $\alpha^2$ effect. I will shortly desribe these effects more rigorously in coming sections.
 
-Thus we have a picture now that, turbulent motions tend to diffuse out the magnetic field strength. If there is some machineary which transports the turbulence out of system, then it should help in retaining the large scale fields. Fountain flow is one such machinery. Essentially, gas when heated up by supernovae expands and rises above the plane of the galaxy, transporting the small scale turbulences along with it
+Thus we have a picture now that, turbulent motions tend to diffuse out the magnetic field strength. If there is some machineary which transports the turbulence out of system, then it should help in retaining the large scale fields. Fountain flow is one such machinery. Essentially, gas when heated up by supernovae expands and rises above the plane of the galaxy, transporting the small scale turbulences along with it.
 
+Some studies (Vainshtein, Samuel, 1992) suggest that the Lorent force due to rapidly growing small scale magnetic fields, can render the large-scale dynamo ineffective, producing only a negligible mean field, which in contradiction to what we actually have.
+
+Thus we study the effect of fountain flows in the $\alpha$ $\Omega$ dynamo, and see how it changes the usual scenario
+
+### Methods
 
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
 <center>
@@ -154,9 +159,9 @@ $$
 \left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
 $$
 </center>
-As evident from the equation, we have 
+As evident from the equation, we have then
 
-### Methods
+
 ABCD
 ### Results
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
@@ -168,7 +173,9 @@ Solving for the case of diffusion equation, we end up with a solution, in which 
 </center>
 <center> Evolution of the magnetic fields with different initial conditions in the Diffusive case</center>
 ### References 
-
-
+1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
+2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
+3. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
+4. Rodrigues, L. F. S., Chamandy, L., Shukurov, A., Baugh, C. M. & Taylor, A. R. Evolution of galactic magnetic fields. Monthly Notices of the Royal Astronomical Society 483, 2424–2440 (2019).
 
 
