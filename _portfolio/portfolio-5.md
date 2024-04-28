@@ -233,6 +233,29 @@ Solving for the case of diffusion equation, we end up with a solution, in which 
 <img src='/images/B_evolution_3.gif' width='350' height='350' />
 </center>
 <center> Evolution of the magnetic fields with different initial conditions in the Diffusive case</center>
+This is what we expect, in the case of diffusion. Now coming to the case of $\alpha-\Omega$ dynamo, we have three different cases, that we have analysed in arbitrary units. 
+
+We have also compared the the evolution of the magnetic field, at a specific location, for our case it was r=5 (code units, the choice is arbitrary). We have seen that, in the initial time steps, the diffusion dominates, but at a specific point the $\alpha-\Omega$ effect starts pumping up the magnetic field. When observed at a global scale, the net magnetic energy increases as well (which is proportional to $B^2$). For the critical value of D, we have observed that the growth becomes zero, after some time, and at the other extrema, a decay in the magnetic field energy is observed.
+<center>
+<img src='/images/local_mag.png' width='550' height='550' />
+</center>
+<center>
+The Evolution of magnetic field components at a local position of r = 5.
+</center>
+
+<center>
+<img src='/images/magnetic_energy.png' width='450' height='450' />
+</center>
+<center>
+The change in $B^2$ for each Dynamo number.
+</center>
+The codes for this part can be found <a href="https://colab.research.google.com/drive/1nx94qIvetfV9nYqES-05cV_Zjse3qTHU?usp=sharing">here</a>.
+
+To compare our results with the standard results provided, we have the following result as well.
+<center>
+<img src='/images/ini_final_alpha_omega.png' width='500' height='500' />
+The initial and final conditions for the standard parameters
+</center>
 #### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
