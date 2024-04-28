@@ -137,7 +137,7 @@ Thus we have a picture now that, turbulent motions tend to diffuse out the magne
 
 Some studies (Vainshtein, Samuel, 1992) suggest that the Lorent force due to rapidly growing small scale magnetic fields, can render the large-scale dynamo ineffective, producing only a negligible mean field, which in contradiction to what we actually have.
 
-Thus we study the effect of fountain flows in the $\alpha$ $\Omega$ dynamo, and see how it changes the usual scenario
+Thus we study the effect of fountain flows in the $\alpha$-$\Omega$ dynamo, and see how it changes the usual scenario.
 
 ### Methods
 
@@ -159,8 +159,8 @@ $$
 \left|\frac{\partial^2}{\partial z^2} \right| \to \frac{\pi^2}{4 h^2}
 $$
 </center>
-As evident from the equation, we have then
-
+For the first part, we neglect all field sustaining effect, and just look into the diffusion equation.
+We neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms.
 
 ABCD
 ### Results
