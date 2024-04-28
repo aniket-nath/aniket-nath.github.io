@@ -191,11 +191,21 @@ D = \alpha q \Omega \frac{h^3}{\eta_t^2}
 $$
 
 $$
-q = \frac{-r}{\Omega}\frac{d\Omega}{dr}
+q = -\frac{r}{\Omega}\frac{d\Omega}{dr}
 $$
 </center>
-Where $h$ is the scale height at each point of the galaxy, along z. This essentially quantifies, whether we will have a growing solution, or decaying solution, or a saturating solution. For a typical dynamo number (we average over all r), called critical dynamo number, we essentially have the saturating solution.
-ABCD
+Where $h$ is the scale height at each point of the galaxy, along z. This essentially quantifies, whether we will have a growing solution, or decaying solution, or a saturating solution. For a typical dynamo number (we average over all r), called critical dynamo number, we essentially have the saturating solution. In this case, only for a dynamo number that is greater than the critical dynamo number, we have a growing solution.
+
+Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $\bar{V_{r}$ term is neglected, retaining only flow perpendicular to the disk i.e., $\bar{V_z}$.
+<center>
+$$
+\frac{\partial \bar{B}_r}{\partial t} = -\frac{partial \bar{V_z} \bar{B_r}}{\partial z} - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
+$$
+
+$$
+\frac{\partial \bar{B}_{\phi}}{\partial t} = -\frac{partial \bar{V_z} \bar{B_r}}{\partial z}-q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
+$$
+</center>
 ### Results
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
 <center>
@@ -208,7 +218,6 @@ Solving for the case of diffusion equation, we end up with a solution, in which 
 ### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
-3. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
-4. Rodrigues, L. F. S., Chamandy, L., Shukurov, A., Baugh, C. M. & Taylor, A. R. Evolution of galactic magnetic fields. Monthly Notices of the Royal Astronomical Society 483, 2424–2440 (2019).
+3. Rodrigues, L. F. S., Chamandy, L., Shukurov, A., Baugh, C. M. & Taylor, A. R. Evolution of galactic magnetic fields. Monthly Notices of the Royal Astronomical Society 483, 2424–2440 (2019).
 
 
