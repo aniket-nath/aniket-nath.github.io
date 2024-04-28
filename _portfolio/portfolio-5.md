@@ -193,8 +193,28 @@ This equation can be rearranged to solve for $$(u_i^{n+1})$$ in terms of known v
 
 FDM allows for the solution of differential equations on a discrete grid, making it computationally feasible for complex problems. It is versatile and can be applied to various types of differential equations with appropriate discretization schemes.
 
----
+#### Courant Condition
+The Courant–Friedrichs–Lewy (CFL) condition, often referred to simply as the Courant condition, is a stability criterion for numerical methods used to solve partial differential equations, particularly those involving wave propagation. It ensures that the time step used in the numerical scheme is small enough to accurately capture the dynamics of the system.
 
+The Courant condition is derived from the physical principle that information cannot propagate faster than a certain speed within the system. In the context of numerical methods, it states that the time step $$ \Delta t $$ used in the simulation should be chosen such that the distance traveled by any information in one time step is less than or equal to the spatial resolution $$ \Delta x $$ of the discretized grid, multiplied by a factor called the Courant number $$ C $$.
+
+Mathematically, the Courant condition can be expressed as:
+
+$$ C = \frac{v \cdot \Delta t}{\Delta x} \leq C_{\text{max}} $$
+
+Where:
+- $$ v $$ is the speed at which information propagates within the system.
+- $$ \Delta t $$ is the time step.
+- $$ \Delta x $$ is the spatial resolution.
+- $$ C_{\text{max}} $$ is the maximum allowable Courant number, typically determined empirically based on the stability requirements of the numerical method.
+
+If the Courant number exceeds $$ C_{\text{max}} $$, the numerical solution may become unstable, leading to unrealistic or erratic behavior. Therefore, it's crucial to adjust the time step according to the Courant condition to ensure numerical stability and accuracy in simulations involving wave-like phenomena.
+
+For our case we have a slightly different definition of Courant condition, where
+
+$$ C = 2\eta \frac{dt}{dr^2} $$
+
+as this ensures that the range of diffusion is limited to our cells which define our resolution.
 ### Methods
 
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
