@@ -139,6 +139,62 @@ Some studies (Vainshtein, Samuel, 1992) suggest that the Lorent force due to rap
 
 Thus we study the effect of fountain flows in the $\alpha$-$\Omega$ dynamo, and see how it changes the usual scenario.
 
+### Numerical Methods of Runge-Kutta
+
+#### Runge-Kutta Method
+
+The Runge-Kutta method is a numerical technique used for solving ordinary differential equations (ODEs). It is particularly useful when analytical solutions are difficult or impossible to obtain. The method involves approximating the solution at discrete points within the interval of interest. Among the various forms of Runge-Kutta methods, the most commonly used is the fourth-order Runge-Kutta method (RK4).
+
+The general formula for RK4 is as follows:
+
+\[
+\begin{align*}
+k_1 &= h \cdot f(t_n, y_n) \\
+k_2 &= h \cdot f(t_n + \frac{h}{2}, y_n + \frac{k_1}{2}) \\
+k_3 &= h \cdot f(t_n + \frac{h}{2}, y_n + \frac{k_2}{2}) \\
+k_4 &= h \cdot f(t_n + h, y_n + k_3) \\
+y_{n+1} &= y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
+\end{align*}
+\]
+
+Where:
+- \( t_n \) represents the current time step.
+- \( y_n \) is the solution at time \( t_n \).
+- \( h \) is the step size.
+- \( f(t, y) \) is the differential equation being solved.
+- \( k_1, k_2, k_3, k_4 \) are intermediate slopes calculated based on the function \( f(t, y) \) at various points.
+
+This method iteratively calculates the value of the function at each step by using weighted averages of different slopes. The RK4 method is known for its accuracy and stability, making it a popular choice in numerical analysis for solving differential equations.
+
+For the radial derivatives of magnetic fields we have used numpy.gradient function, which essentially implements the finite difference method for derivatives.
+
+#### Finite Difference Method
+
+The Finite Difference Method (FDM) is a numerical technique used for solving differential equations, including partial differential equations (PDEs). It works by discretizing the differential equation into a system of algebraic equations by approximating the derivatives with finite differences. FDM is widely used in various fields such as engineering, physics, and finance.
+
+For example, consider a one-dimensional heat conduction equation:
+
+\[
+\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
+\]
+
+To solve this equation using FDM, we discretize the spatial and temporal domains. Let \(u_i^n\) represent the value of \(u\) at spatial point \(x_i\) and time \(t_n\). Using central difference approximation for both spatial and temporal derivatives, we can rewrite the equation as:
+
+\[
+\frac{u_i^{n+1} - u_i^n}{\Delta t} = \alpha \frac{u_{i+1}^n - 2u_i^n + u_{i-1}^n}{(\Delta x)^2}
+\]
+
+Where:
+- \( \Delta x \) is the spatial step size.
+- \( \Delta t \) is the temporal step size.
+- \( \alpha \) is the thermal diffusivity coefficient.
+
+This equation can be rearranged to solve for \(u_i^{n+1}\) in terms of known values at time step \(n\). The process is repeated for each spatial point and time step until the solution converges.
+
+FDM allows for the solution of differential equations on a discrete grid, making it computationally feasible for complex problems. It is versatile and can be applied to various types of differential equations with appropriate discretization schemes.
+
+---
+
 ### Methods
 
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
@@ -268,7 +324,9 @@ To compare our results with the standard results provided, we have the following
 The initial and final conditions for the standard parameters provided by the TA.
 </center>
 
-Now that we are done with this part, we proceed with further analysis, as to how $V_z$ variation will affect the dynamo. The typical range of vertical galactic outflows, averaged over the scales of the galaxy can be approximated to be at most 2 km/s (Shukurov et. al., 2006). Thus, we only consider the case, where over the radial scales of interest we have either a positive constant, or negative constant vertical velocity, of the corresponding value. 
+Now that we are done with this part, we proceed with further analysis, as to how $V_z$ variation will affect the dynamo. The typical range of vertical galactic outflows, averaged over the scales of the galaxy can be approximated to be at most 2 km/s (Shukurov et. al., 2006). Thus, we only consider the case, where over the radial scales of interest we have either a positive constant, or negative constant vertical velocity, of the corresponding value.
+
+When the $V_z$ is zero, we retrive the usual dynamo evolution. When we have a positive $V_z$, as evident from the equation, it will try to decrease the magnitude of the magnetic field, over time. Which is just the opposite when it comes to the negative case. Thus it either slows down, or enhances the usual dynamo, based on how strong it is with respect to the dynamo
 
 <center>
 <img src='/images/v_z_compare.png' width='400' height='400' />
@@ -277,7 +335,10 @@ Now that we are done with this part, we proceed with further analysis, as to how
 Comparing the final Magnetic fields, evolved using same parameters, varying $V_z$ only.
 </center>
 
-For a positive constant vertical outflow, in this case of our equation, the outflows depending on their signs either try to slow down or accelerate the growth of the magnetic fields. When the outflow is positive, away from the plane, it helps diffusion, by holding back the magnetic field evolution.
+### Conclusions
+Our analysis is elementary, and has many simplifying assumptions. Our approximation is not valid for elliptical galaxies, limiting ourselves only to spiral galaxies. We have not gone into the non-linear regime, and thus what we observe in this analysis are merely based on this very simple equations. There are other turbulent factors that may be relevant. For our case of analysis, we have used a constant $V_z$, which can be extended to a variable outflow in the vertical direction, by extending further away from the typical galaxy radius, we need more detailed analysis to get a more realistic results. We have strictly kept ourselves in the mean field equations only, without any turbulent field equations coming into play, which is not a realistic scenario, but the only way we have encoded turbulence is through thee definition of $\eta$, which is a simpler way of modelling turbulence. This analysis can thus be extended to much more realistic situations, if we choose necessary forms of the different parameters. As a basis, this analysis is elementary, but has scope for further extension.
+
+
 #### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
