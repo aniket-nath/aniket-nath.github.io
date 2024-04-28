@@ -207,6 +207,7 @@ $$
 \frac{\partial \bar{B}_{\phi}}{\partial t} = -\frac{p\artial \bar{V_z} \bar{B_{\phi}}}{\partial z}-q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
 $$
 </center>
+We expect outflows outward within the luminous disk of the galaxy, for our consideration, we assume a constant outflow at all radius to star with.
 ### Results
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
 <center>
