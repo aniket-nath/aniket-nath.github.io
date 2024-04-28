@@ -147,7 +147,7 @@ The Runge-Kutta method is a numerical technique used for solving ordinary differ
 
 The general formula for RK4 is as follows:
 
-\[
+$$
 \begin{align*}
 k_1 &= h \cdot f(t_n, y_n) \\
 k_2 &= h \cdot f(t_n + \frac{h}{2}, y_n + \frac{k_1}{2}) \\
@@ -155,14 +155,14 @@ k_3 &= h \cdot f(t_n + \frac{h}{2}, y_n + \frac{k_2}{2}) \\
 k_4 &= h \cdot f(t_n + h, y_n + k_3) \\
 y_{n+1} &= y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
 \end{align*}
-\]
+$$
 
 Where:
-- \( t_n \) represents the current time step.
-- \( y_n \) is the solution at time \( t_n \).
+- \( $$t_n$$ \) represents the current time step.
+- \($$ y_n $$ \) is the solution at time \( t_n \).
 - \( h \) is the step size.
 - \( f(t, y) \) is the differential equation being solved.
-- \( k_1, k_2, k_3, k_4 \) are intermediate slopes calculated based on the function \( f(t, y) \) at various points.
+- \($$ k_1, k_2, k_3, k_4 $$\) are intermediate slopes calculated based on the function \( f(t, y) \) at various points.
 
 This method iteratively calculates the value of the function at each step by using weighted averages of different slopes. The RK4 method is known for its accuracy and stability, making it a popular choice in numerical analysis for solving differential equations.
 
@@ -174,22 +174,22 @@ The Finite Difference Method (FDM) is a numerical technique used for solving dif
 
 For example, consider a one-dimensional heat conduction equation:
 
-\[
+$$
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-\]
+$$
 
 To solve this equation using FDM, we discretize the spatial and temporal domains. Let \(u_i^n\) represent the value of \(u\) at spatial point \(x_i\) and time \(t_n\). Using central difference approximation for both spatial and temporal derivatives, we can rewrite the equation as:
 
-\[
+$$
 \frac{u_i^{n+1} - u_i^n}{\Delta t} = \alpha \frac{u_{i+1}^n - 2u_i^n + u_{i-1}^n}{(\Delta x)^2}
-\]
+$$
 
 Where:
-- \( \Delta x \) is the spatial step size.
-- \( \Delta t \) is the temporal step size.
-- \( \alpha \) is the thermal diffusivity coefficient.
+- \( $$ \Delta x$$ \) is the spatial step size.
+- \($$ \Delta t $$\) is the temporal step size.
+- \($$ \alpha $$\) is the thermal diffusivity coefficient.
 
-This equation can be rearranged to solve for \(u_i^{n+1}\) in terms of known values at time step \(n\). The process is repeated for each spatial point and time step until the solution converges.
+This equation can be rearranged to solve for $$(u_i^{n+1})$$ in terms of known values at time step n. The process is repeated for each spatial point and time step until the solution converges.
 
 FDM allows for the solution of differential equations on a discrete grid, making it computationally feasible for complex problems. It is versatile and can be applied to various types of differential equations with appropriate discretization schemes.
 
