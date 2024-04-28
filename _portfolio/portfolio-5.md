@@ -171,10 +171,18 @@ $$
 \frac{\partial \bar{B}_{\phi}}{\partial t} = \eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi}) \right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2} \right]
 $$
  
-We see that the magnetic fields dissipate quuickly in this case, and dynamo is not in action as shown in the results section.
-</center>
 
-Now we proceed to add the $\alpha$ and $\Omega$ terms, neglecting the $alpha^2$ effect.
+</center>
+We see that the magnetic fields dissipate quuickly in this case, and dynamo is not in action as shown in the results section.
+Now we proceed to add the $\alpha$ and $\Omega$ terms, neglecting the $\alpha^2$ effect. That is we neglect the term involving $\alpha$ in the evolution equation for $B_{phi}$, and retain the terms having $\Omega$, and $\alpha$ for the evolution of $B_{r}$. Then we have,
+$$
+\frac{\partial \bar{B}_r}{\partial t} = - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
+$$
+
+$$
+\frac{\partial \bar{B}_{\phi}}{\partial t} = -q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
+$$
+
 
 ABCD
 ### Results
