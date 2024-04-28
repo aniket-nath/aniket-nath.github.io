@@ -184,7 +184,16 @@ $$
 \frac{\partial \bar{B}_{\phi}}{\partial t} = -q\Omega \bar{B}_r - \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right] 
 $$
 </center>
-The inclusion of this terms essentially accounts for the $\alpha-\Omega$ effect. To get a better physical picture, $\alpha$ term essentially
+The inclusion of this terms essentially accounts for the $\alpha-\Omega$ effect. To get a better physical picture, $\alpha$ term essentially turns the toroidal field into poloidal field in cylindrical geometry, and $\Omega$ term turns poloidal field into toroidal field. These factors compete with the diffusive terms, hence for a specific case of $\alpha$ and $\Omega$, with respect to $\eta_t$. Thus we define a quantity called the dynamo number, which is defined as:
+<center>
+$$
+D = \alpha q \Omega \frac{h^3}{\eta_t^2}
+$$
+
+$$
+q = \frac{-r}{\Omega}\frac{d\Omega}{dr}
+$$
+</center>
 ABCD
 ### Results
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
