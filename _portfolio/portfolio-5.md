@@ -112,22 +112,23 @@ Study of the non-linear dynamo equation in the context of scales relevant to gal
 All phenomenons of large-scale magnetic field generation are modelled using equation of Magnetohydrodynamics. To start off, we essentially write the Induction Equation in terms of the Mean Field Component of the Magnetic Fields. On writing this equation in cylindrical coordinates, we get three equations dictating the evolution of Magentic field components in the $r$, $\phi$, and $z$ components of the equation. First to see how the dynamo is actually powered up through the $\alpha$, $\Omega$ dynamo, we shall do a part by part analysis. We also wish to explore fountain flows in Galaxies and how they affect dynamo equations. We have taken motivation from (Rodrigues et. al., ) 
 
 ### Theory
-For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. An analysis of this effect is essentially
+For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this effect is essentially
 <center>
+
 $$
 \frac{\partial \bar{B_r}}{\partial t} = - \frac{\bar{V_r}}{r} \frac{\partial}{\partial r} (r\bar{B_r}) - \frac{\partial}{\partial z} (\bar{V_z}\bar{B_r}) - \frac{\partial}{\partial z} (\alpha \bar{B_{\phi}}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_r}) \right) + \frac{\partial^2 \bar{B_r}{\partial z^2} \right]
-
 $$
 
 $$
 \frac{\partial \bar{B_{\phi}}}{\partial t} = -q\Omega \bar{B_r} - \frac{\partial}{\partial r}(\bar{V_r}\bar{B_{\phi}}) - \frac{\partial}{\partial z}(\bar{V_z}\bar{B_{\phi}}) + \frac{\partial}{\partial z}(\alpha \bar{B_r}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_{\phi}})\right) + \frac{\partial^2 \bar{B_{\phi}}}{\partial z^2}  \right] 
 $$
+
 </center>
 We have for the first part of the analysis, only the diffusion equation, which essentially ignores all mechanices that lead to the $\alpha$-$\Omega$ dynamo.
 In the primary case, we neglect all couplings between $B_r$ and $B_{\phi}$. We also neglect the $\alpha$ and $\Omega$ terms. Thus we consider only the terms involving $\nabla^2$. Hence, at this stage, we essentially have only the diffusion terms. 
 <center>
 $$
-\frac{\partial B_r}{\partial t} =\eta_t \left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (rB_r) \right) + \frac{\partial^2 B_r}{\partial z^2} \right]
+\frac{\partial B_r}{\partial t} =\eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B_r}) \right) + \frac{\partial^2 \bar{B_r}{\partial z^2} \right]
 
 $$
 $$
