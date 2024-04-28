@@ -215,7 +215,7 @@ Solving for the case of diffusion equation, we end up with a solution, in which 
 <img src='/images/B_evolution_3.gif' width='350' height='350' />
 </center>
 <center> Evolution of the magnetic fields with different initial conditions in the Diffusive case</center>
-### References 
+#### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
 3. Rodrigues, L. F. S., Chamandy, L., Shukurov, A., Baugh, C. M. & Taylor, A. R. Evolution of galactic magnetic fields. Monthly Notices of the Royal Astronomical Society 483, 2424–2440 (2019).
