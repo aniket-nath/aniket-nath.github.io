@@ -117,6 +117,12 @@ For ease of analysis, we have assumed a no-z approximation, that is for a thin d
 $$
 \frac{\partial \bar{B}_r}{\partial t} = - \frac{\bar{V}_r}{r} \frac{\partial}{\partial r} (r\bar{B}_r) - \frac{\partial}{\partial z} (\bar{V}_z\bar{B}_r) - \frac{\partial}{\partial z} (\alpha \bar{B}_{\phi}) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_r) \right) + \frac{\partial^2 \bar{B}_r}{\partial z^2} \right]
 $$
+
+$$
+
+\frac{\partial \bar{B}_{\phi}}{\partial t} = -q\Omega \bar{B}_r - \frac{\partial}{\partial r}(\bar{V}_r\bar{B}_{\phi}) - \frac{\partial}{\partial z}(\bar{V}_z\bar{B}_{\phi}) + \frac{\partial}{\partial z}(\alpha \bar{B}_r) + \eta_t\left[ \frac{\partial}{\partial r} \left( \frac{1}{r} \frac{\partial}{\partial r} (r\bar{B}_{\phi})\right) + \frac{\partial^2 \bar{B}_{\phi}}{\partial z^2}  \right]
+
+$$
 </center>
 The derivatives with respect to z are then estimated as
 <center>
