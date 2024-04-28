@@ -203,6 +203,11 @@ $$
 $$
 </center>
 We fix $$R_0$$ to a specific value, and proceed with the analysis. For $\alpha$ we have then,
+<center>
+$$
+\alpha = \tau^2 v_{rms}^2 \frac{\Omega}{h}
+$$
+</center>
 
 
 Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $$\bar{V_{r}$$ term is neglected, retaining only flow perpendicular to the disk i.e., $$\bar{V_z}$$.
