@@ -202,7 +202,8 @@ $$
 \Omega = \dfrac{\Omega_0}{\sqrt{ \left(1+\left(\frac{r}{R_0}\right)^2\right) }}
 $$
 </center>
-We fix $$R_0$$ to a specific value
+We fix $$R_0$$ to a specific value, and proceed with the analysis. For $\alpha$ we have then,
+
 
 Now, we include the terms of fountain flows. We assume that the radial outflow is negligible, thus the $$\bar{V_{r}$$ term is neglected, retaining only flow perpendicular to the disk i.e., $$\bar{V_z}$$.
 
