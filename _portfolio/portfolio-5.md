@@ -265,10 +265,19 @@ To compare our results with the standard results provided, we have the following
 <img src='/images/ini_final_alpha_omega.png' width='500' height='500' />
 </center>
 <center>
-The initial and final conditions for the standard parameters.
+The initial and final conditions for the standard parameters provided by the TA.
 </center>
 
-Now that we are done with this part, we proceed with further analysis, as to how $V_z$ variation will affect the dynamo. The typical range of vertical galactic outflows, averaged over the scales of the galaxy can be approximated to be at most 2 km/s (Shukurov et. al., 2006). Thus, we only consider the case, where over the radial scales of interest we have either a positive constant, or negative constant vertical velocity. 
+Now that we are done with this part, we proceed with further analysis, as to how $V_z$ variation will affect the dynamo. The typical range of vertical galactic outflows, averaged over the scales of the galaxy can be approximated to be at most 2 km/s (Shukurov et. al., 2006). Thus, we only consider the case, where over the radial scales of interest we have either a positive constant, or negative constant vertical velocity, of the corresponding value. 
+
+<center>
+<img src='/images/v_z_compare.png' width='400' height='400' />
+</center>
+<center>
+Comparing the final Magnetic fields, evolved using same parameters, varying $V_z$ only.
+</center>
+
+For a positive constant vertical outflow, in this case of our equation, the outflows depending on their signs either try to slow down or accelerate the growth of the magnetic fields. When the outflow is positive, away from the plane, it helps diffusion, by holding back the magnetic field evolution.
 #### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
