@@ -194,6 +194,7 @@ $$
 q = \frac{-r}{\Omega}\frac{d\Omega}{dr}
 $$
 </center>
+Where $h$ is the scale height at each point of the galaxy, along z. This essentially quantifies, whether we will have a growing solution, or decaying solution, or a saturating solution. For a typical dynamo number (we average over all r), called critical dynamo number, we essentially have the saturating solution.
 ABCD
 ### Results
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
