@@ -251,11 +251,20 @@ The change in $B^2$ for each Dynamo number.
 </center>
 The codes for this part can be found <a href="https://colab.research.google.com/drive/1nx94qIvetfV9nYqES-05cV_Zjse3qTHU?usp=sharing">here</a>.
 
+The corresponding $\alpha-\Omega$ for this specific case can also be illustrated as follows
+<center>
+<img src='/images/Omega_profile.png' width='500' height='500' />
+<img src='/images/Alpha_omega.png' width='500' height='500' />
+</center>
 To compare our results with the standard results provided, we have the following result as well.
 <center>
 <img src='/images/ini_final_alpha_omega.png' width='500' height='500' />
-The initial and final conditions for the standard parameters
 </center>
+<center>
+The initial and final conditions for the standard parameters.
+</center>
+
+Now that we are done with this part, we proceed with further analysis, as to how $V_z$ variation will affect the dynamo. The typical range of vertical galactic outflows, averaged over the scales of the galaxy can be approximated to be at most 2 km/s (Shukurov et. al., 2006). Thus, we only consider the case, where over the radial scales of interest we have either a positive constant, or negative constant vertical velocity. 
 #### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
