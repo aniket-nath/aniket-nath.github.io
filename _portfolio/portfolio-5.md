@@ -7,10 +7,10 @@ excerpt: "This project is done as a part of the course I took in Magnetohydrodyn
 "
 collection: portfolio.
 ---
-### Abstract
+## Abstract
 Study of the non-linear dynamo equation in the context of scales relevant to galaxies is pivotal to get an insight into the dynamos that generate the magnetic fields of galaxies. In this project, we have investigated the dynamo equation, starting off from the Induction equation. We have observed how diffusion comes into play, and adding alpha-omega terms at certain levels makes the dynamo action active. We also add the fountain flow term in the dynamo equation and see how the fields change over time.
 
-### Introduction
+## Introduction
 All phenomenons of large-scale magnetic field generation are modelled using equation of Magnetohydrodynamics. To start off, we essentially write the Induction Equation in terms of the Mean Field Component of the Magnetic Fields. On writing this equation in cylindrical coordinates, we get three equations dictating the evolution of Magentic field components in the $r$, $\phi$, and $z$ components of the equation. First to see how the dynamo is actually powered up through the $\alpha$, $\Omega$ dynamo, we shall do a part by part analysis. We also wish to explore fountain flows in Galaxies and how they affect dynamo equations. We have taken theoretical motivation from (Rodrigues et. al., 2019). Thus we first have the induction equation which is given by
 <center>
 $$
@@ -41,9 +41,9 @@ Some studies (Vainshtein, Samuel, 1992) suggest that the Lorent force due to rap
 
 Thus we study the effect of fountain flows in the $\alpha$-$\Omega$ dynamo, and see how it changes the usual scenario.
 
-### Numerical Methods of Runge-Kutta
+## Numerical Methods of Runge-Kutta
 
-#### Runge-Kutta Method
+### Runge-Kutta Method
 
 The Runge-Kutta method is a numerical technique used for solving ordinary differential equations (ODEs). It is particularly useful when analytical solutions are difficult or impossible to obtain. The method involves approximating the solution at discrete points within the interval of interest. Among the various forms of Runge-Kutta methods, the most commonly used is the fourth-order Runge-Kutta method (RK4).
 
@@ -70,7 +70,7 @@ This method iteratively calculates the value of the function at each step by usi
 
 For the radial derivatives of magnetic fields we have used numpy.gradient function, which essentially implements the finite difference method for derivatives.
 
-#### Finite Difference Method
+### Finite Difference Method
 
 The Finite Difference Method (FDM) is a numerical technique used for solving differential equations, including partial differential equations (PDEs). It works by discretizing the differential equation into a system of algebraic equations by approximating the derivatives with finite differences. FDM is widely used in various fields such as engineering, physics, and finance.
 
@@ -95,7 +95,7 @@ This equation can be rearranged to solve for $$(u_i^{n+1})$$ in terms of known v
 
 FDM allows for the solution of differential equations on a discrete grid, making it computationally feasible for complex problems. It is versatile and can be applied to various types of differential equations with appropriate discretization schemes.
 
-#### Courant Condition
+### Courant Condition
 The Courant–Friedrichs–Lewy (CFL) condition, often referred to simply as the Courant condition, is a stability criterion for numerical methods used to solve partial differential equations, particularly those involving wave propagation. It ensures that the time step used in the numerical scheme is small enough to accurately capture the dynamics of the system.
 
 The Courant condition is derived from the physical principle that information cannot propagate faster than a certain speed within the system. In the context of numerical methods, it states that the time step $$ \Delta t $$ used in the simulation should be chosen such that the distance traveled by any information in one time step is less than or equal to the spatial resolution $$ \Delta x $$ of the discretized grid, multiplied by a factor called the Courant number $$ C $$.
@@ -117,7 +117,7 @@ For our case we have a slightly different definition of Courant condition, where
 $$ C = 2\eta \frac{dt}{dr^2} $$
 
 as this ensures that the range of diffusion is limited to our cells which define our resolution.
-### Methods
+## Methods
 
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
 <center>
@@ -201,7 +201,7 @@ $$
 </center>
 We expect outflows outward within the luminous disk of the galaxy, for our consideration, we assume a constant outflow at all radius to start with. Another feasible part is when we have decreasing $V_z$ over r, which essentially means, the fountain flows decreases as we go towards the end of the galaxies.
 
-### Results
+## Results
 
 Solving for the case of diffusion equation, we end up with a solution, in which whatever existing field is there, they diffuse out, and the field strength reduces drastically. The example cases are given below.
 <center>
@@ -257,12 +257,12 @@ When the $V_z$ is zero, we retrive the usual dynamo evolution. When we have a po
 Comparing the final Magnetic fields, evolved using same parameters, varying $V_z$ only.
 </center>
 
-### Conclusions
+## Conclusions
 Our analysis is elementary, and has many simplifying assumptions. Our approximation is not valid for elliptical galaxies, limiting ourselves only to spiral galaxies. We have not gone into the non-linear regime, and thus what we observe in this analysis are merely based on this very simple equations. There are other turbulent factors that may be relevant. For our case of analysis, we have used a constant $V_z$, which can be extended to a variable outflow in the vertical direction, by extending further away from the typical galaxy radius, we need more detailed analysis to get a more realistic results. We have strictly kept ourselves in the mean field equations only, without any turbulent field equations coming into play, which is not a realistic scenario, but the only way we have encoded turbulence is through thee definition of $\eta$, which is a simpler way of modelling turbulence. This analysis can thus be extended to much more realistic situations, if we choose necessary forms of the different parameters. As a basis, this analysis is elementary, but has scope for further extension.
 
-Please find the codes here: 
+Please find the codes here: [Github](https://github.com/aniket-nath/Dynamo)
 
-#### References 
+### References 
 1. Vainshtein, S. I. & Cattaneo, F. Nonlinear Restrictions on Dynamo Action. The Astrophysical Journal 393, 165 (1992).
 2. Shukurov, A., Sokoloff, D., Subramanian, K. & Brandenburg, A. Galactic dynamo and helicity losses through fountain flow. A&A 448, L33–L36 (2006).
 3. Rodrigues, L. F. S., Chamandy, L., Shukurov, A., Baugh, C. M. & Taylor, A. R. Evolution of galactic magnetic fields. Monthly Notices of the Royal Astronomical Society 483, 2424–2440 (2019).
