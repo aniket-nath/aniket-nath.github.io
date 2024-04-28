@@ -123,9 +123,8 @@ $$
 \mathbf{A} = \mathbf{\bar{A}} + \mathbf{b} 
 
 $$
-Where the barred component is the mean field, and the component in lower case is the turbulent component. Thus, if we do a average over scales larger than the scales of the turbulent component
 </center>
-
+Where the barred component is the mean field, and the component in lower case is the turbulent component. Thus, if we do a average over scales larger than the scales of the turbulent component, we are only left with the mean field component, and we will deal will the equations obtained by this method. It is valid to question as to why are we neglecting random fields for this part. Given the physical scales of a galaxy, it is safe to do this averaging. We must also note that the effect of turbulence is not actually entirely removed. Turbulence components tend to diffuse out the energy from the large scale magnetic fields, and the turbulence component is actually accounted for by the diffusivity parameter $\eta_t$.
 ### Theory
 For ease of analysis, we have assumed a no-z approximation, that is for a thin disc, the derivatives along $z$ can be essentially replaced by corresponding ratios. Thus the equations for this case is essentially
 <center>
