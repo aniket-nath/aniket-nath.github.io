@@ -257,6 +257,8 @@ When the $V_z$ is zero, we retrive the usual dynamo evolution. When we have a po
 Comparing the final Magnetic fields, evolved using same parameters, varying $V_z$ only.
 </center>
 
+This can also be verified analytically by solving for only thr fountain flow term on the RHS of the equation, and see how it just adds an exponential growth or decay. If we compare the global growth rates for each of the cases, this will be more evident.
+
 ## Conclusions
 Our analysis is elementary, and has many simplifying assumptions. Our approximation is not valid for elliptical galaxies, limiting ourselves only to spiral galaxies. We have not gone into the non-linear regime, and thus what we observe in this analysis are merely based on this very simple equations. There are other turbulent factors that may be relevant. For our case of analysis, we have used a constant $V_z$, which can be extended to a variable outflow in the vertical direction, by extending further away from the typical galaxy radius, we need more detailed analysis to get a more realistic results. We have strictly kept ourselves in the mean field equations only, without any turbulent field equations coming into play, which is not a realistic scenario, but the only way we have encoded turbulence is through thee definition of $\eta$, which is a simpler way of modelling turbulence. This analysis can thus be extended to much more realistic situations, if we choose necessary forms of the different parameters. As a basis, this analysis is elementary, but has scope for further extension.
 
