@@ -246,6 +246,14 @@ To compare our results with the standard results provided, we have the following
 The initial and final conditions for the standard parameters provided by the TA.
 </center>
 
+<center>
+
+<img src='/images/B_evolution.gif' width='500' height='500' />
+
+</center>
+
+<center>Animation showing $\alpha$-$\Omega$ dynamo in action</center>
+
 Now that we are done with this part, we proceed with further analysis, as to how $V_z$ variation will affect the dynamo. The typical range of vertical galactic outflows, averaged over the scales of the galaxy can be approximated to be at most 2 km/s (Shukurov et. al., 2006). Thus, we only consider the case, where over the radial scales of interest we have either a positive constant, or negative constant vertical velocity, of the corresponding value.
 
 When the $V_z$ is zero, we retrive the usual dynamo evolution. When we have a positive $V_z$, as evident from the equation, it will try to decrease the magnitude of the magnetic field, over time. Which is just the opposite when it comes to the negative case. Thus it either slows down, or enhances the usual dynamo, based on how strong it is with respect to the dynamo
