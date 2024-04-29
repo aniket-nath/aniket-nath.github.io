@@ -41,7 +41,7 @@ Some studies (Vainshtein, Samuel, 1992) suggest that the Lorent force due to rap
 
 Thus we study the effect of fountain flows in the $\alpha$-$\Omega$ dynamo, and see how it changes the usual scenario.
 
-## Numerical Methods of Runge-Kutta
+## Numerical Methods
 
 ### Runge-Kutta Method
 
