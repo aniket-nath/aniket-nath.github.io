@@ -16,10 +16,12 @@ Education
 
 Research experience
 ======
-* Research Project 2023-24 (Ongoing)
-  * Spectral State classification of X-Ray Binaries using Machine Learning
-  * This project is being done in collaboration with [Dr. Santanu Mondal](https://www.iiap.res.in/?q=SantanuMondal) and [Diptarko Choudhury](https://in.linkedin.com/in/diptarko-choudhury-371518205).
-  * Work is in progress, and the outcomes will be updated in the website.
+* Summer 2024: NORDITA Summer Internship
+  * Worked under the supervision of [Dr. Sambit Giri](https://sambit-giri.github.io/).
+  * Construction of Halo merger trees for dark matter.
+  * Merger tree construction based on Extended Press-Schecter Theory (GALFORM Algorithm).
+  * Observed the change in merger trees for different choice of Cosmological parameters.
+  
 
 
 * Summer 2023: SERB MATRICS Fellow
@@ -51,7 +53,7 @@ Achievements
 * DISHA (DAE Incentive Scheme for Holistic Science Education and Augmentation) Scholarship, 2020-25
 
 
-Schools Attended
+Schools and Conferences Attended
 ======
 * Radio Astronomy Winter School (RAWS) : 2022
   * RAWS was jointly hosted by [IUCAA](https://www.iucaa.in/en/) and [NCRA](http://www.ncra.tifr.res.in/ncra/main)
@@ -61,6 +63,11 @@ Schools Attended
 * 21 cm Cosmology Winter School : 2023
   * Hosted by [NISER Bhubaneswar](https://www.niser.ac.in/).
   * Participant in the 2023 Winter School  
+    
+* Conference on Blazars and Restless AGNs (COBRA) : 2024
+  * [COBRA](https://cobra2024.weebly.com/) was hosted by [School of Astrophysics, Presidency University](https://www.presiuniv.ac.in/web/astrophysics.php).
+  * Participant in the Workshop.
+
   
 Skills
 ======
@@ -69,9 +76,10 @@ Skills
   * Bengali - Native or Bilingual Proficiency
   * Hindi - Native or Bilingual Proficiency
 * Computer Languages
-  * C/C++
   * Python
+  * Julia
   * FORTRAN
+  * C/C++
 * Libraries, Utilities and Softwares
   * Github
   * Numpy, Scipy, Astropy
@@ -98,5 +106,6 @@ Service and leadership
 <!---* Club Memberships @NISER-->
    * Talks Organising Committe, NISER Astronomy Club
    * Founder Member of Vaktavya, NISER Debating Club
+   * President, Vaktavya, NISER Debating Club (2024-2025).
 <!---* Others -->    
    * Rajya Puraskar Scout, The Bharat Scouts and Guides
