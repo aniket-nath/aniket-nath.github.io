@@ -96,6 +96,7 @@ Skills
 Referees
 ======
 * [Prof. Mousumi Das](https://www.iiap.res.in/people/personnel/mousumi/mdas-site.htm), Professor, Indian Institute of Astrophysics, Bengaluru, India
+* [Dr. Sambit Giri](https://sambit-giri.github.io/), Nordita Fellow, Nordic Institute of Theoretical Physics, (NORDITA), Stockholm, Sweden.
 * [Dr. Tuhin Ghosh](https://www.niser.ac.in/users/tghosh), Reader-F, National Institute of Science Education and Research Bhubaneswar, Jatni, India
 * [Prof. Pravabati Chingangbam](https://www.iiap.res.in/?q=prava), Professor, Indian Institute of Astrophysics, Bengaluru, India
 * [Dr. Santanu Mondal](https://www.iiap.res.in/?q=SantanuMondal), Ramanujan Fellow, Indian Institute of Astrophysics, Bengaluru, India
