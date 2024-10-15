@@ -43,7 +43,11 @@ Research experience
   * Funded by Indian Academy of Sciences.
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
   * Guides: [Dr. Mousumi Das](https://www.iiap.res.in/people/personnel/mousumi/mdas-site.htm) and [Dr. Santanu Mondal](https://www.iiap.res.in/?q=SantanuMondal).
-  * Outcomes: Manuscript for publication has been submitted to a journal and is under review.
+  * Outcomes: This has contributed to a work, which has been accepted in Astronomy & Astrophysics.[arxiv](https://arxiv.org/abs/2409.05717)
+
+Publications
+======
+* Detection of the Fe K lines from the binary AGN in 4C+37.11, Santanu Mondal , Mousumi Das, K. Rubinur, Karishma Bansal3, **Aniket Nath** , and Greg B. Taylor
 
 Achievements
 ======
@@ -95,11 +99,12 @@ Skills
   
 Referees
 ======
-* [Prof. Mousumi Das](https://www.iiap.res.in/people/profile/academic/mousumi-das/), Professor, Indian Institute of Astrophysics, Bengaluru, India
+* [Prof. Mousumi Das](https://www.iiap.res.in/people/personnel/mousumi/mdas-site.htm), Professor, Indian Institute of Astrophysics, Bengaluru, India
 * [Dr. Sambit Giri](https://sambit-giri.github.io/), Nordita Fellow, Nordic Institute of Theoretical Physics, (NORDITA), Stockholm, Sweden.
 * [Dr. Tuhin Ghosh](https://www.niser.ac.in/users/tghosh), Reader-F, National Institute of Science Education and Research Bhubaneswar, Jatni, India
 * [Prof. Pravabati Chingangbam](https://www.iiap.res.in/people/profile/academic/pravabati-chingangbam/), Professor, Indian Institute of Astrophysics, Bengaluru, India
 * [Dr. Santanu Mondal](https://www.iiap.res.in/people/profile/academic/santanu-mondal/), Ramanujan Fellow, Indian Institute of Astrophysics, Bengaluru, India
+* [Dr. Luke Robert Chamandy](https://www.niser.ac.in/profile/lchamandy), Reader-F, National Institute of Science Education and Research Bhubaneswar, Jatni, India
 
 
 Service and leadership
