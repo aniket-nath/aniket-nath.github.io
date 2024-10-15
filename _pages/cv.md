@@ -45,11 +45,11 @@ Research experience
   * Funded by Indian Academy of Sciences.
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
   * Guides: [Dr. Mousumi Das](https://www.iiap.res.in/people/personnel/mousumi/mdas-site.htm) and [Dr. Santanu Mondal](https://www.iiap.res.in/?q=SantanuMondal).
-  * Outcomes: This has contributed to a work, which has been accepted in Astronomy & Astrophysics.[arxiv](https://arxiv.org/abs/2409.05717)
+  * Outcomes: This has contributed to a work, which has been accepted in Astronomy & Astrophysics.[[arxiv]](https://arxiv.org/abs/2409.05717)
 
 Publications
 ======
-* Detection of the Fe K lines from the binary AGN in 4C+37.11, Santanu Mondal , Mousumi Das, K. Rubinur, Karishma Bansal3, *Aniket Nath* , and Greg B. Taylor
+* Detection of the Fe K lines from the binary AGN in 4C+37.11. Santanu Mondal , Mousumi Das, K. Rubinur, Karishma Bansal, *Aniket Nath* , and Greg B. Taylor [[arxiv]](https://arxiv.org/abs/2409.05717)
 
 Achievements
 ======
