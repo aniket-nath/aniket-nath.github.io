@@ -16,21 +16,23 @@ Education
 
 Research experience
 ======
+* Master's Thesis: Correlating the Galactic Magnetic Field and the Galactic Synchrotron
+  * Working under the supervision of [Dr. Tuhin Ghosh](https://www.niser.ac.in/users/tghosh) (NISER)
+  * This is in continuation with the Summer 2023 work.
+  * Simulated Synchrotron maps using best fitted parameters with respect to WMAP data.
+  * Studying the statistics of these fields using Power spectrum, Minkowski Functionals.
+  * Developing a julia code for Minkowski Functional Calculations.
 * Summer 2024: NORDITA Summer Internship
   * Worked under the supervision of [Dr. Sambit Giri](https://sambit-giri.github.io/).
   * Construction of Halo merger trees for dark matter.
   * Merger tree construction based on Extended Press-Schecter Theory (GALFORM Algorithm).
   * Observed the change in merger trees for different choice of Cosmological parameters.
-  
-
-
 * Summer 2023: SERB MATRICS Fellow
   * Correlating Synchrotron radiation with Galactic Magnetic Field: I have tried to match statistics of data with that of generated from simulations and, used power spectrum and Minkowkski Functionals to study their statistics, and investigate their correlation.  
   * Funded by Science and Engineering Research Board.
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
   * Guides: [Dr. Pravabati Chingangbam](https://www.iiap.res.in/?q=prava), [Dr. Tuhin Ghosh](https://www.niser.ac.in/users/tghosh) (NISER), [Dr. Vincent Pelgrims](https://www.ia.forth.gr/node/50) (ULB).
   * Outcomes: Work is still in progress.
-  
 * Semester Project
   * Explorative Latent Space Search Algorithm (ELSA): We devised an active learning guided algorithm to explore the latent space generated through representation learning heads on a dataset, and used it to discover newer samples of a particular class.
   * Done as a part of introductory course in Machine Learning ([CS460](https://www.niser.ac.in/~smishra/teach/cs460/23cs460/)).
@@ -47,7 +49,7 @@ Research experience
 
 Publications
 ======
-* Detection of the Fe K lines from the binary AGN in 4C+37.11, Santanu Mondal , Mousumi Das, K. Rubinur, Karishma Bansal3, **Aniket Nath** , and Greg B. Taylor
+* Detection of the Fe K lines from the binary AGN in 4C+37.11, Santanu Mondal , Mousumi Das, K. Rubinur, Karishma Bansal3, *Aniket Nath* , and Greg B. Taylor
 
 Achievements
 ======
