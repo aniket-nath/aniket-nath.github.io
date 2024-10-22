@@ -33,9 +33,8 @@ Research experience
   * Host Institute: Indian Institute of Astrophysics, Bengaluru, India.
   * Guides: [Dr. Pravabati Chingangbam](https://www.iiap.res.in/?q=prava), [Dr. Tuhin Ghosh](https://www.niser.ac.in/users/tghosh) (NISER), [Dr. Vincent Pelgrims](https://www.ia.forth.gr/node/50) (ULB).
   * Outcomes: Work is still in progress.
-* Semester Project
-  * Explorative Latent Space Search Algorithm (ELSA): We devised an active learning guided algorithm to explore the latent space generated through representation learning heads on a dataset, and used it to discover newer samples of a particular class.
-  * Done as a part of introductory course in Machine Learning ([CS460](https://www.niser.ac.in/~smishra/teach/cs460/23cs460/)).
+* Independent Research Project
+  * Self Supervised Active Learning Search Algorithm (SALSA): We devised an active learning guided algorithm to explore the latent space generated through representation learning heads on a dataset, and used it to discover newer samples of a particular class.
   * Collaborated with [Diptarko Choudhury](https://in.linkedin.com/in/diptarko-choudhury-371518205).
   * Guide: [Dr. Subhankar Mishra](https://niser.ac.in/~smishra/).
   * Outcomes: Manuscript for publication has been submitted to a conference.
@@ -74,7 +73,11 @@ Schools and Conferences Attended
   * [COBRA](https://cobra2024.weebly.com/) was hosted by [School of Astrophysics, Presidency University](https://www.presiuniv.ac.in/web/astrophysics.php).
   * Participant in the Workshop.
 
-  
+Teaching Experience
+======
+* Teaching Assistant: [CS640](https://www.niser.ac.in/~smishra/teach/cs460/24cs460/) Machine Learning 2024.
+
+
 Skills
 ======
 * Communication Skills
