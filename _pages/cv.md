@@ -60,18 +60,22 @@ Achievements
 
 Schools and Conferences Attended
 ======
-* Radio Astronomy Winter School (RAWS) : 2022
-  * RAWS was jointly hosted by [IUCAA](https://www.iucaa.in/en/) and [NCRA](http://www.ncra.tifr.res.in/ncra/main)
-  * I was selected for RAWS-2022
-  * I learnt some basic techniques of Radio Astronomy and it's applications in different domains.
-
-* 21 cm Cosmology Winter School : 2023
-  * Hosted by [NISER Bhubaneswar](https://www.niser.ac.in/).
-  * Participant in the 2023 Winter School  
-    
 * Conference on Blazars and Restless AGNs (COBRA) : 2024
   * [COBRA](https://cobra2024.weebly.com/) was hosted by [School of Astrophysics, Presidency University](https://www.presiuniv.ac.in/web/astrophysics.php).
   * Participant in the Workshop.
+  
+* 21 cm Cosmology Winter School : 2023
+  * Hosted by [NISER Bhubaneswar](https://www.niser.ac.in/).
+  * Participant in the 2023 Winter School. 
+
+* Radio Astronomy Winter School (RAWS) : 2022
+  * RAWS was jointly hosted by [IUCAA](https://www.iucaa.in/en/) and [NCRA](http://www.ncra.tifr.res.in/ncra/main)
+  * I was selected for RAWS-2022.
+  * I learnt some basic techniques of Radio Astronomy and it's applications in different domains.
+
+
+    
+
 
 Teaching Experience
 ======
