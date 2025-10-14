@@ -1,0 +1,73 @@
+---
+const { sideBarActiveItemID } = Astro.props;
+const activeClass = "bg-base-300"; // Highlight for active menu
+---
+
+<ul class="menu grow shrink menu-md overflow-y-auto space-y-1">
+  <!-- Home -->
+  <li>
+    <a id="home" href="/" class="py-3 text-base flex items-center gap-2">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 3l9 9h-3v9h-12v-9h-3l9-9z"/>
+      </svg>
+      Home
+    </a>
+  </li>
+
+  <!-- Publications -->
+  <li>
+    <a id="publications" href="/publications" class="py-3 text-base flex items-center gap-2">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19 2H8c-1.1 0-2 .9-2 2v16l6-3 6 3V4c0-1.1-.9-2-2-2z"/>
+      </svg>
+      Publications
+    </a>
+  </li>
+
+  <!-- Projects -->
+  <li>
+    <a id="projects" href="/projects" class="py-3 text-base flex items-center gap-2">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 0h14V7H7v2zm0 4h14v-2H7v2zm0 4h14v-2H7v2z"/>
+      </svg>
+      Projects and Research
+    </a>
+  </li>
+
+  <!-- Blog (Medium link) -->
+  <li>
+    <a id="blog" href="https://medium.com/@aniket.nath.phy" target="_blank" rel="noopener noreferrer" class="py-3 text-base flex items-center gap-2">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M4 4h16v2H4V4zm0 4h10v2H4V8zm0 4h16v2H4v-2zm0 4h10v2H4v-2z"/>
+      </svg>
+      Blog
+    </a>
+  </li>
+
+  <!-- CV -->
+  <li>
+    <a id="cv" href="/cv" class="py-3 text-base flex items-center gap-2">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M6 2a2 2 0 0 0-2 2v16l4-2 4 2 4-2 4 2V4a2 2 0 0 0-2-2H6zm0 2h12v14.764l-2-.998-2 .998-2-.998-2 .998-2-.998-2 .998V4z"/>
+      </svg>
+      CV
+    </a>
+  </li>
+
+  <!-- Contact -->
+  <li>
+    <a id="contact" href="/contact" class="py-3 text-base flex items-center gap-2" referrerpolicy="no-referrer-when-downgrade">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      Contact
+    </a>
+  </li>
+</ul>
+
+<script define:vars={{ sideBarActiveItemID: sideBarActiveItemID, activeClass: activeClass }}>
+  const activeItemElem = document.getElementById(sideBarActiveItemID);
+  if (activeItemElem) activeItemElem.classList.add(activeClass);
+</script>
+
+

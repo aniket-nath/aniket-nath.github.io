@@ -1,0 +1,168 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Curriculum Vitae" sideBarActiveItemID="cv">
+
+  <!-- Profile Section -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+  <div class="mb-10 text-justify">
+    Long Term Visiting Student at ICTS-TIFR | Aspiring PhD Candidate.
+    Broadly interested in theoretical and computational aspects of Astrophysics and Cosmology, including GRMHD studies, astrophysical jets, 21cm cosmology, cosmic magnetism, and statistical tools for cosmology. Also exploring applications of Machine Learning techniques in related fields.
+  </div>
+
+  <!-- Education Section -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Integrated Master's in Physical Sciences"
+      subtitle="2020 to 2025 at NISER Bhubaneswar, India"
+    >
+      Major: Physical Sciences | Minor: Computer Sciences<br/>
+      Affiliated to HBNI, CGPA: 8.65/10
+    </TimeLineElement>
+  </div>
+
+  <!-- Research Experience -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Research Experience</div>
+  </div>
+
+  <div class="mb-10 space-y-6">
+    <div>
+      <strong>Long Term Visiting Student at ICTS-TIFR</strong> (Aug 2025 - Present) — ICTS-TIFR, Bengaluru, India<br/>
+      Studying the effect of gas physics on the polarisation signatures from black holes.<br/>
+      PI: <a href="https://www.icts.res.in/people/pallavi-bhat" target="_blank" class="text-blue-600 hover:underline">Dr. Pallavi Bhat</a>
+    </div>
+
+    <div>
+      <strong>Master's Thesis: Galactic Synchrotron Radiation</strong> (2024 - 2025) — NISER Bhubaneswar, India<br/>
+      Studied statistical properties of Galactic synchrotron radiation using physical models and tools like power spectrum, Minkowski Functionals, higher-order cumulants, etc.<br/>
+      Supervisor: <a href="https://www.niser.ac.in/~tghosh" target="_blank" class="text-blue-600 hover:underline">Dr. Tuhin Ghosh</a>
+    </div>
+
+    <div>
+      <strong>Summer 2024: Dark Matter Halo Merger Trees</strong> — NORDITA<br/>
+      Studied dark matter halo merger trees for different cosmologies using the GALFORM algorithm.<br/>
+      Supervisor: <a href="#" target="_blank" class="text-blue-600 hover:underline">Dr. Sambit Giri</a>
+    </div>
+
+    <div>
+      <strong>Independent Research Project: SALSA</strong> (2023 - 2024) — NISER Bhubaneswar<br/>
+      Developed Self-Supervised Active Learning Search Algorithm to efficiently explore latent spaces and minority class sampling.<br/>
+      Supervisor: <a href="https://www.niser.ac.in/~smishra" target="_blank" class="text-blue-600 hover:underline">Dr. Subhankar Mishra</a>
+    </div>
+
+    <div>
+      <strong>Summer 2023: Galactic Magnetic Field Studies</strong> — IIA Bengaluru, NISER Bhubaneswar<br/>
+      Investigated Galactic Magnetic Field properties and simulated synchrotron maps using gpempy module.<br/>
+      Supervisors: 
+      <a href="#" target="_blank" class="text-blue-600 hover:underline">Dr. Pravabati Chingangbam</a>, 
+      <a href="https://www.niser.ac.in/~tghosh" target="_blank" class="text-blue-600 hover:underline">Dr. Tuhin Ghosh</a>
+    </div>
+
+    <div>
+      <strong>Summer 2022: X-ray spectra of Dual AGNs</strong> — IIA Bengaluru<br/>
+      Analysed Fe K spectral signatures in a binary AGN system, published in Astronomy & Astrophysics.<br/>
+      Supervisors: 
+      <a href="#" target="_blank" class="text-blue-600 hover:underline">Dr. Mousumi Das</a>, 
+      <a href="#" target="_blank" class="text-blue-600 hover:underline">Dr. Santanu Mondal</a><br/>
+      <a href="https://arxiv.org/abs/2409.05717" target="_blank" class="text-blue-600 hover:underline">Link to manuscript</a>
+    </div>
+  </div>
+
+  <!-- Publications -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Publications</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>
+      <strong>2024:</strong> Detection of the Fe K lines from the binary AGN in 4C+37.11 — 
+      Santanu Mondal, Mousumi Das, K. Rubinur, Karishma Bansal, <strong>Aniket Nath</strong>, Greg B. Taylor
+      [<a href="https://arxiv.org/abs/2409.05717" target="_blank" class="text-blue-600 hover:underline">arXiv</a>]
+      [<a href="https://doi.org/10.1051/0004-6361/202450616" target="_blank" class="text-blue-600 hover:underline">A&A</a>]
+    </li>
+  </ul>
+
+  <!-- Achievements -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Achievements</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>NORDITA Summer Intern, Nordic Institute of Theoretical Physics (2024)</li>
+    <li>SERB MATRICS Fellow (Science and Engineering Research Board, Govt. of India, 2023) — <a href="https://www.serbonline.in/SERB/matrics_new" target="_blank" class="text-blue-600 hover:underline">Details</a></li>
+    <li>Summer Research Fellow (IASc, INSA, NASI, 2022) — <a href="https://webjapps.ias.ac.in/fellowship2022/lists/result.jsp" target="_blank" class="text-blue-600 hover:underline">Details</a></li>
+    <li>DISHA Scholarship, Govt. of India (2020)</li>
+  </ul>
+
+  <!-- Schools, Workshops, Conferences -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Schools, Workshops, Conferences</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li><strong>Summer 2024:</strong> COBRA: Conference on Blazars and Restless AGNs — Presidency University, IUCAA</li>
+    <li><strong>Monsoon 2024:</strong> Physics of Life Monsoon School — NCBS-TIFR</li>
+    <li><strong>Winter 2023:</strong> Advanced 21 cm Cosmology Winter School — NISER Bhubaneswar</li>
+    <li><strong>Winter 2022:</strong> Radio Astronomy Winter School — IUCAA, NCRA</li>
+  </ul>
+
+  <!-- Teaching Experience -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Teaching Experience</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>Teaching Assistant: <a href="https://www.niser.ac.in/~smishra/teach/cs460/24cs460/" target="_blank" class="text-blue-600 hover:underline">CS460/660 Machine Learning 2024</a></li>
+  </ul>
+
+  <!-- Computer Skills -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Computer Skills</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>Languages: Python, Julia, FORTRAN</li>
+    <li>Utilities: Anaconda, Git, Jupyter Notebook, LaTeX</li>
+    <li>Libraries: Healpy, NaMaster, Numpy, Astropy, Pandas, Scipy, Matplotlib</li>
+    <li>Software: NASA-HEASOFT, XSPEC, Chandra CIAO</li>
+  </ul>
+
+  <!-- Communication Skills -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Communication Skills</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>English: Full Professional Proficiency</li>
+    <li>Hindi: Native or Bilingual Proficiency</li>
+    <li>Bengali: Native or Bilingual Proficiency</li>
+  </ul>
+
+  <!-- Relevant Courses -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Relevant Courses</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>P474: Introduction to Cosmology, Grade: 8/10</li>
+    <li>P452: Computational Physics, Grade: 9/10</li>
+    <li>P457: General Theory of Relativity and Cosmology, Grade: 10/10</li>
+    <li>P464: Plasma Physics and Magnetohydrodynamics, Grade: 8/10</li>
+    <li>P453: Quantum Field Theory-I, Grade: 9/10</li>
+    <li>P463: Astronomy and Astrophysics, Grade: 9/10</li>
+  </ul>
+
+  <!-- Extra Curricular -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Extra Curricular</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 space-y-2">
+    <li>Vaktavya (Debating Club), NISER — Founding Member & President (2024-2025)</li>
+    <li>NISER Astronomy Club — Core Member, organizing talks and outreach activities</li>
+    <li>The Bharat Scouts and Guides, India — Rajya Puraskar Scout (2017)</li>
+  </ul>
+
+</BaseLayout>
+

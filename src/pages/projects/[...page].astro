@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HorizontalCard from "../../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../../lib/createSlug";
+
+export async function getStaticPaths({ paginate }) {
+  // Fetch all projects
+  const allProjects = await getCollection("projects");
+
+  // Sort: numeric order first (fallback to title)
+  const sortedProjects = allProjects.sort((a, b) => {
+    const orderA = typeof a.data.order === "number" ? a.data.order : 9999;
+    const orderB = typeof b.data.order === "number" ? b.data.order : 9999;
+    if (orderA !== orderB) return orderA - orderB;
+    return String(a.data.title).localeCompare(String(b.data.title));
+  });
+
+  // DEBUG: prints to terminal where `npm run dev` is running
+  console.log("=== projects order (sortedProjects) ===");
+  for (const p of sortedProjects) {
+    console.log(`order=${p.data.order ?? "N/A"}   title=${p.data.title}   file=${p.slug}`);
+  }
+
+  // Paginate the already sorted list
+  return paginate(sortedProjects, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Projects</div>
+  </div>
+
+  {
+    page.data.length === 0 ? (
+      <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
+        <p class="font-bold">Sorry!</p>
+        <p>No projects to show at the moment.</p>
+      </div>
+    ) : (
+      <ul>
+        {page.data.map((project) => (
+          <>
+            <HorizontalCard
+              title={project.data.title}
+              img={project.data.heroImage}
+              desc={project.data.description}
+              url={"/projects/" + createSlug(project.data.title, project.slug)}
+              target="_self"
+              badge={project.data.badge}
+              tags={project.data.tags}
+            />
+            <div class="divider my-0" />
+          </>
+        ))}
+      </ul>
+    )
+  }
+</BaseLayout>
+
+
