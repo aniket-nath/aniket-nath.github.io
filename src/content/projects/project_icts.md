@@ -6,5 +6,10 @@ badge: "CURRENT"
 order: 1
 ---
 
-Studied how gas physics affects polarisation signatures in black hole images. Used GRMHD simulations and analytical modeling.
+In this project, we are trying to understand the effects of polrisation signatures from black holes. We wish to implement some analytical models for the flow in accretion disk, and the magnetic field structures to study the signature in the corresponding polarisation signatures. We are using the RAPTOR code for this study. 
+
+More results coming soon!
+
+For more details on the radiative-transfer engine used in this project, see the  
+[RAPTOR code on GitHub](https://github.com/tbronzwaer/raptor).
 
